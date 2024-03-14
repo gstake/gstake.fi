@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: url("./fonts/DINPro.otf") format("otf"),
+         url("./fonts/DINPro.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bai Jamjuree";
+    src: url("./fonts/BaiJamjuree-Medium.otf") format("otf"),
+         url("./fonts/BaiJamjuree-Medium.ttf") format("truetype");
+}
+
+html, body, body > #__next {
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+}
+
+body {
+    font-family: 'PingFang SC', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(24,26,30) transparent;
+}
+
+body::-webkit-scrollbar {
+    height: 3px;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    box-shadow: none !important;
+    background: rgb(24,26,30);
+}
+body::-webkit-scrollbar-track {
+    box-shadow: none !important;
+    border-radius: 0;
+    background: rgb(24,26,30);
+}
+
+body.ReactModal__Body--open {
+    overflow: hidden;
+} 
+
+.toastContainer .fadeIn {
+    margin-top: 80px !important;
+    box-shadow: none !important;
+}
+
+.toastContainer .fadeOut {
+    margin-top: 0px !important;
+}
+
+.toastContainer > div {
+    min-width: 150px;
+    max-width: 320px;
+    min-height: 72px;
+    padding: 24px;
+    border-radius: 12px;
+    transition: all .3s;
+}
+
+.swal2-popup {
+    width: auto !important;
+}
+
+.toastContainer.error > div {
+    background: #F15563;
+}
+
+.toastContainer.success > div {
+    background: #00B78C;
+}
+
+.toastContainer .swal2-content {
+    padding: 0;
+}
+
+.toastContainer .swal2-content .swal2-html-container {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #101215;
+    text-align: left;
+    font-family: DINPro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1C1C1C;
+}
+
+.toastContainer .swal2-content .swal2-html-container > svg {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 auto;
+    margin-right: 12px;
+}
+
+/* init custom tooltip css */
+.rc-tooltip.rc-tooltip-zoom-appear,
+.rc-tooltip.rc-tooltip-zoom-enter {
+    opacity: 0;
+}
+.rc-tooltip.rc-tooltip-zoom-enter,
+.rc-tooltip.rc-tooltip-zoom-leave {
+    display: block;
+}
+.rc-tooltip-zoom-enter,
+.rc-tooltip-zoom-appear {
+    opacity: 0;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    animation-play-state: paused;
+}
+.rc-tooltip-zoom-leave {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+    animation-play-state: paused;
+}
+.rc-tooltip-zoom-enter.rc-tooltip-zoom-enter-active,
+.rc-tooltip-zoom-appear.rc-tooltip-zoom-appear-active {
+    animation-name: rcToolTipZoomIn;
+    animation-play-state: running;
+}
+.rc-tooltip-zoom-leave.rc-tooltip-zoom-leave-active {
+    animation-name: rcToolTipZoomOut;
+    animation-play-state: running;
+}
+@keyframes rcToolTipZoomIn {
+    0% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+    }
+}
+@keyframes rcToolTipZoomOut {
+    0% {
+        opacity: 1;
+        transform-origin: 50% 50%;
+        transform: scale(1, 1);
+    }
+    100% {
+        opacity: 0;
+        transform-origin: 50% 50%;
+        transform: scale(0, 0);
+    }
+}
+.rc-tooltip {
+position: absolute;
+z-index: 1070;
+display: block;
+visibility: visible;
+line-height: 1.5;
+font-size: 12px;
+background: none !important;
+padding: 1px;
+opacity: 1;
+}
+.rc-tooltip-hidden {
+    display: none;
+}
+.rc-tooltip-custom-inner {
+    padding: 8px 10px;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    background-color: rgb(40, 43, 50);
+    border-radius: 3px;
+    min-height: 34px;
+    border: none;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+.rc-tooltip-custom-arrow,
+.rc-tooltip-arrow-inner {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.rc-tooltip-placement-top .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-topLeft .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-topRight .rc-tooltip-custom-arrow {
+bottom: -5px;
+margin-left: -6px;
+border-width: 6px 6px 0;
+border-top-color: rgba(0, 0, 0, 0.75);
+}
+.rc-tooltip-placement-top .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-topLeft .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-topRight .rc-tooltip-arrow-inner {
+    bottom: 1px;
+    margin-left: -6px;
+    border-width: 6px 6px 0;
+    border-top-color: #ffffff;
+}
+.rc-tooltip-placement-top .rc-tooltip-custom-arrow {
+    left: 50%;
+}
+.rc-tooltip-placement-topLeft .rc-tooltip-custom-arrow {
+    left: 48px;
+}
+.rc-tooltip-placement-topRight .rc-tooltip-custom-arrow {
+    right: 15%;
+}
+.rc-tooltip-placement-right .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-rightTop .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-rightBottom .rc-tooltip-custom-arrow {
+    left: -5px;
+    margin-top: -6px;
+    border-width: 6px 6px 6px 0;
+    border-right-color: rgba(0, 0, 0, 0.75);
+}
+.rc-tooltip-placement-right .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-rightTop .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-rightBottom .rc-tooltip-arrow-inner {
+    left: 1px;
+    margin-top: -6px;
+    border-width: 6px 6px 6px 0;
+    border-right-color: #ffffff;
+}
+.rc-tooltip-placement-right .rc-tooltip-custom-arrow {
+    top: 50%;
+}
+.rc-tooltip-placement-rightTop .rc-tooltip-custom-arrow {
+    top: 15%;
+    margin-top: 0;
+}
+.rc-tooltip-placement-rightBottom .rc-tooltip-custom-arrow {
+    bottom: 15%;
+}
+.rc-tooltip-placement-left .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-leftTop .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-leftBottom .rc-tooltip-custom-arrow {
+    right: -5px;
+    margin-top: -6px;
+    border-width: 6px 0 6px 6px;
+    border-left-color: rgba(0, 0, 0, 0.75);
+}
+.rc-tooltip-placement-left .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-leftTop .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-leftBottom .rc-tooltip-arrow-inner {
+    right: 1px;
+    margin-top: -6px;
+    border-width: 6px 0 6px 6px;
+    border-left-color: #ffffff;
+}
+.rc-tooltip-placement-left .rc-tooltip-custom-arrow {
+    top: 50%;
+}
+.rc-tooltip-placement-leftTop .rc-tooltip-custom-arrow {
+    top: 15%;
+    margin-top: 0;
+}
+.rc-tooltip-placement-leftBottom .rc-tooltip-custom-arrow {
+    bottom: 15%;
+}
+.rc-tooltip-placement-bottom .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-bottomLeft .rc-tooltip-custom-arrow,
+.rc-tooltip-placement-bottomRight .rc-tooltip-custom-arrow {
+    top: -5px;
+    margin-left: -6px;
+    border-width: 0 6px 6px;
+    border-bottom-color: rgba(0, 0, 0, 0.75);
+}
+.rc-tooltip-placement-bottom .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-bottomLeft .rc-tooltip-arrow-inner,
+.rc-tooltip-placement-bottomRight .rc-tooltip-arrow-inner {
+    top: 1px;
+    margin-left: -6px;
+    border-width: 0 6px 6px;
+    border-bottom-color: #ffffff;
+}
+.rc-tooltip-placement-bottom .rc-tooltip-custom-arrow {
+    left: 50%;
+}
+.rc-tooltip-placement-bottomLeft .rc-tooltip-custom-arrow {
+    left: 15%;
+}
+.rc-tooltip-placement-bottomRight .rc-tooltip-custom-arrow {
+    right: 15%;
+}
+/* end init custom tooltip css */
+
+/* security password styles */
+.security-password-input {
+    font-family          : text-security-disc;
+    /* text-security     : disc; */
+    -webkit-text-security: disc;
+  }
+  
+  .security-password-input .ant-input {
+    font-family          : text-security-disc;
+    /* text-security     : disc; */
+    -webkit-text-security: disc;
+  }
+  
+  .security-password-input .ant-input::-webkit-input-placeholder {
+    font-family: normal;
+  }
+  
+  .security-password-input .ant-input::-moz-placeholder {
+    font-family: normal;
+  }
+  
+  .security-password-input .ant-input::-ms-input-placeholder {
+    font-family: normal;
+  }
+
+
+.ReactModal__Overlay.classic-modal-overlay {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    position: fixed;
+    inset: 0px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    outline: 0;
+    text-align: center;
+}
+
+.ReactModal__Overlay--after-open.classic-modal-overlay {
+    opacity: 1;
+    backdrop-filter: blur(12px);
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+.ReactModal__Overlay--before-close.classic-modal-overlay {
+    opacity: 0;
+}
+.ReactModal__Overlay.classic-modal-overlay .ReactModal__Content {
+    transition: all 400ms ease-in-out !important;
+    transform: scale(1) !important;
+}
+.ReactModal__Overlay.classic-modal-overlay::before {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    content: '';
+}
+.ReactModal__Overlay.classic-modal-overlay.loading .ReactModal__Content {
+    height: 300px !important;
+}
+.ReactModal__Overlay--after-open.classic-modal-overlay .ReactModal__Content {
+    /* opacity: 1; */
+    margin-top: 0 !important;
+}
+
+.ReactModal__Overlay--before-close.classic-modal-overlay .ReactModal__Content {
+    /* opacity: 0; */
+    transform: scale(1.2) !important;
+}
+
+.dropdownMenu .rc-dropdown-menu{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 0;
+}
+.dropdownMenu .rc-dropdown-menu li {
+    padding: 0;
+    background: transparent;
+}
+.dropdownMenu .rc-dropdown-menu li:hover {
+    background: transparent;
+    color: rgba(77, 80, 249, 1);
+ }
+.dropdownMenu .rc-dropdown-menu li a{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #959aa7;
+    font-family: DINPro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dropdownMenu .rc-dropdown-menu li a:hover {
+    background: rgba(167, 172, 184, 0.1);
+    color: rgba(77, 80, 249, 1);
+ }
+
+ .drawerWrap .drawer-mask {
+     opacity: 1 !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(12px);
+}
+
+.drawerWrap .drawer-content-wrapper {
+    background: #2E2E40;
+}
+
+.rc-dropdown-menu > .rc-dropdown-menu-item-selected:after {
+    display: none;
+}
+/* .drawerWrap .drawer,
+.drawerWrap .drawer-open .drawer-mask {
+    width: 100%;
+    height: 100%;
+}
+.drawerWrap .drawer-mask {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+} */

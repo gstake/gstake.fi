@@ -1,0 +1,1728 @@
+{
+    "object": {
+        "uuid": "B6BEBD25-292C-4ECC-9729-2C0233CBC257",
+        "objectType": "Scene",
+        "name": "Untitled",
+        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+        "layers": 1,
+        "children": [
+            {
+                "uuid": "2622E93E-5885-4204-AACC-B14F8C758E8D",
+                "objectType": "Mesh3D",
+                "name": "Cube",
+                "matrix": [
+                    0.7880107536067215,
+                    -0.5855288579403553,
+                    -0.19024985865758076,
+                    0,
+                    0.4646456136023597,
+                    0.768345021678057,
+                    -0.44017085480825563,
+                    0,
+                    0.4039102696890134,
+                    0.258460604699454,
+                    0.8775275550420822,
+                    0,
+                    -228.3105387725118,
+                    123.40274015275851,
+                    44.679065178826576,
+                    1
+                ],
+                "castShadow": true,
+                "receiveShadow": true,
+                "layers": 1,
+                "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+                "interaction": {
+                    "uuid": "6EEF6C75-1DB6-49F7-9BC0-F3CC101E7433",
+                    "selectedState": 0,
+                    "states": ["9CBC39D7-33D0-4640-A1E8-F7E7D136A3CE", "63D2A7FB-5FA3-4784-BCD2-2F41D89295A9"],
+                    "events": [
+                        {
+                            "type": 7,
+                            "ui": {"isCollapsed": false},
+                            "targets": [
+                                {
+                                    "easing": 0,
+                                    "duration": 1500,
+                                    "delay": 0,
+                                    "cubicControls": [0.5, 0.05, 0.1, 0.3],
+                                    "springParameters": {"mass": 1, "stiffness": 80, "damping": 10, "velocity": 0},
+                                    "repeat": true,
+                                    "cycle": true,
+                                    "rewind": true,
+                                    "object": "2622E93E-5885-4204-AACC-B14F8C758E8D",
+                                    "state": "63D2A7FB-5FA3-4784-BCD2-2F41D89295A9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "geometry": "C30B75EA-4715-4ABB-8574-F0337ECBC337",
+                "material": "4A374B17-DA76-44E8-AB19-F94AD111924B"
+            },
+            {
+                "uuid": "C7811E22-E519-4D41-A9F3-1F96B6C2B78C",
+                "objectType": "Mesh3D",
+                "name": "Cone",
+                "matrix": [
+                    0.7731918262511598,
+                    0.5216280061332006,
+                    -0.3606641415997678,
+                    0,
+                    -0.6043010103414328,
+                    0.7785078735326423,
+                    -0.16954580427721283,
+                    0,
+                    0.1923400341029387,
+                    0.34904113520498525,
+                    0.9171562556162913,
+                    0,
+                    291.86079972850877,
+                    -74.05,
+                    48.78075796403225,
+                    1
+                ],
+                "castShadow": true,
+                "receiveShadow": true,
+                "layers": 1,
+                "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+                "interaction": {
+                    "uuid": "A0577CCA-4344-4267-B385-C514C74F3490",
+                    "selectedState": 1,
+                    "states": ["BF6986AC-D417-4063-86C1-ED4191F168BB", "810DB6E5-CE94-4239-B37C-1BC54623C15F"],
+                    "events": [
+                        {
+                            "type": 2,
+                            "ui": {"isCollapsed": false},
+                            "targets": [
+                                {
+                                    "easing": 6,
+                                    "duration": 1000,
+                                    "delay": 0,
+                                    "cubicControls": [0.5, 0.05, 0.1, 0.3],
+                                    "springParameters": {"mass": 1, "stiffness": 80, "damping": 10, "velocity": 0},
+                                    "object": "C7811E22-E519-4D41-A9F3-1F96B6C2B78C",
+                                    "state": "810DB6E5-CE94-4239-B37C-1BC54623C15F"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "geometry": "A86DC406-58BE-4710-87BD-3DB20F528DAA",
+                "material": "5108FB14-0D22-4AEC-95CB-F632B34DB907"
+            },
+            {
+                "uuid": "E6CA2C5B-5421-4226-BA20-0D2006C1AC85",
+                "objectType": "Mesh3D",
+                "name": "Cylinder 2",
+                "matrix": [
+                    0.9271838545667868,
+                    -0.35823806689874754,
+                    -0.10952436831738736,
+                    0,
+                    0.3746065934159115,
+                    0.886670329774357,
+                    0.27108232415108935,
+                    0,
+                    7.632783294297941e-17,
+                    -0.29237170472273644,
+                    0.9563047559630342,
+                    0,
+                    -283.2,
+                    -73.3,
+                    74.17791139942823,
+                    1
+                ],
+                "castShadow": true,
+                "receiveShadow": true,
+                "layers": 1,
+                "scaleLock": true,
+                "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+                "interaction": {
+                    "uuid": "2F0EBDBD-7248-4001-BA74-37A10B2FEC25",
+                    "selectedState": 1,
+                    "states": ["D25CE53B-81AE-4761-A65A-A629F74D54B4", "EB2449CC-4831-4C10-AFED-4E2B30662023"],
+                    "events": [
+                        {
+                            "type": 7,
+                            "ui": {"isCollapsed": false},
+                            "targets": [
+                                {
+                                    "easing": 0,
+                                    "duration": 1500,
+                                    "delay": 0,
+                                    "cubicControls": [0.5, 0.05, 0.1, 0.3],
+                                    "springParameters": {"mass": 1, "stiffness": 80, "damping": 10, "velocity": 0},
+                                    "repeat": true,
+                                    "cycle": true,
+                                    "rewind": true,
+                                    "object": "E6CA2C5B-5421-4226-BA20-0D2006C1AC85",
+                                    "state": "EB2449CC-4831-4C10-AFED-4E2B30662023"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "geometry": "03F68808-D555-430E-A3AB-24F431AB6B62",
+                "material": "BC44CDF9-C6F5-43A0-BCA6-A447629EA7D6"
+            },
+            {
+                "uuid": "63440C2C-41BF-411E-8F29-B9954149092B",
+                "objectType": "Mesh3D",
+                "name": "Cylinder",
+                "matrix": [
+                    1.2253650150512307,
+                    -0.09746890995182218,
+                    0.29739953174358047,
+                    0,
+                    -0.30551781195663463,
+                    -0.11194245331152729,
+                    1.2221267707254846,
+                    0,
+                    -0.06786410292439124,
+                    -1.2559597082468354,
+                    -0.13200668465978535,
+                    0,
+                    158.50329911379518,
+                    156.1260944335936,
+                    57.4264500000001,
+                    1
+                ],
+                "castShadow": true,
+                "receiveShadow": true,
+                "layers": 1,
+                "scaleLock": true,
+                "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+                "interaction": {
+                    "uuid": "9AD05BF3-6A49-416D-9205-E63737477CC6",
+                    "selectedState": 1,
+                    "states": ["5B321510-1DCB-4D4C-8105-9EDDE97BF265", "DAFD9AAF-7978-4B6A-859D-2B07B5EB7AB6"],
+                    "events": [
+                        {
+                            "type": 9,
+                            "ui": {"isCollapsed": false},
+                            "distance": 1000,
+                            "targets": [
+                                {
+                                    "easing": 4,
+                                    "duration": 1000,
+                                    "delay": 0,
+                                    "cubicControls": [0.5, 0.05, 0.1, 0.3],
+                                    "springParameters": {"mass": 1, "stiffness": 80, "damping": 10, "velocity": 0},
+                                    "object": "63440C2C-41BF-411E-8F29-B9954149092B"
+                                }
+                            ]
+                        },
+                        {
+                            "type": 0,
+                            "ui": {"isCollapsed": false},
+                            "targets": [
+                                {
+                                    "easing": 6,
+                                    "duration": 1000,
+                                    "delay": 0,
+                                    "cubicControls": [0.5, 0.05, 0.1, 0.3],
+                                    "springParameters": {"mass": 1, "stiffness": 80, "damping": 10, "velocity": 0},
+                                    "object": "63440C2C-41BF-411E-8F29-B9954149092B"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "geometry": "4B6CED08-EB5A-4349-A91D-A8D4436D313C",
+                "material": "80608570-ADFB-4862-AF08-C3053F08AF78"
+            },
+            {
+                "uuid": "3B695796-4617-4F45-BF86-E0B33A41DF6B",
+                "objectType": "CombinedCamera",
+                "name": "Default Camera",
+                "matrix": [
+                    1,
+                    0,
+                    1.8989879848682172e-127,
+                    0,
+                    1.1627947786440722e-143,
+                    1,
+                    -6.123233995736766e-17,
+                    0,
+                    -1.8989879848682172e-127,
+                    6.123233995736766e-17,
+                    1,
+                    0,
+                    -1.898987984868217e-124,
+                    6.123233995736766e-14,
+                    1000,
+                    1
+                ],
+                "layers": 1,
+                "children": [
+                    {
+                        "uuid": "E3F6D54D-4262-4F48-815D-87A431E15474",
+                        "type": "DirectionalLight",
+                        "name": "Default Directional Light",
+                        "layers": 1,
+                        "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 850000, 1300000, 1000000, 1],
+                        "color": 16777215,
+                        "intensity": 0.75,
+                        "shadow": {
+                            "camera": {
+                                "uuid": "A365B353-F1AA-4566-BF6A-A7B546E473F0",
+                                "type": "OrthographicCamera",
+                                "layers": 1,
+                                "zoom": 1,
+                                "left": -5,
+                                "right": 5,
+                                "top": 5,
+                                "bottom": -5,
+                                "near": 0.5,
+                                "far": 500
+                            }
+                        }
+                    }
+                ],
+                "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+                "interaction": {"uuid": "B2468481-CBDD-4F0F-B576-73B5F8EA49C6"},
+                "enableHelper": false,
+                "cameraType": "OrthographicCamera",
+                "targetOffset": 1000,
+                "left": -1090.5,
+                "right": 1090.5,
+                "top": 579,
+                "bottom": -579,
+                "zoomOrtho": 0.9999999999999999,
+                "nearOrtho": -50000,
+                "far": 50000,
+                "aspect": 1.883419689119171,
+                "fov": 45,
+                "focus": 10,
+                "filmGauge": 35,
+                "filmOffset": 0,
+                "zoomPersp": 1,
+                "nearPersp": 50
+            },
+            {
+                "uuid": "36878CE4-1A1A-40E5-B27A-7718B3714A24",
+                "type": "HemisphereLight",
+                "name": "Default Ambient Light",
+                "layers": 1,
+                "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1],
+                "color": 13882323,
+                "intensity": 0.75,
+                "groundColor": 8553090
+            }
+        ],
+        "activeCamera": "3B695796-4617-4F45-BF86-E0B33A41DF6B",
+        "camera": "3B695796-4617-4F45-BF86-E0B33A41DF6B",
+        "directionalLight": "E3F6D54D-4262-4F48-815D-87A431E15474",
+        "ambientLight": "36878CE4-1A1A-40E5-B27A-7718B3714A24",
+        "color": [0.10980392156862745, 0.12156862745098039, 0.13725490196078433],
+        "alpha": 1,
+        "directionalLightState": true,
+        "ambientLightState": true,
+        "canvas": {
+            "mode": 2,
+            "preset": "crop",
+            "editorSize": {"width": 2181, "height": 1158},
+            "color": [0, 0, 0, 0.605],
+            "size": {"width": 1200, "height": 458}
+        },
+        "postprocessing": {
+            "enabled": false,
+            "bloom": {
+                "enabled": false,
+                "opacity": 1,
+                "blendFunction": 16,
+                "intensity": 1,
+                "luminanceThreshold": 0.9,
+                "luminanceSmoothing": 0.025,
+                "blurScale": 1,
+                "kernelSize": 3
+            },
+            "chromaticAberration": {"enabled": false, "opacity": 1, "blendFunction": 13, "offset": [10, 10]},
+            "vignette": {
+                "enabled": false,
+                "opacity": 1,
+                "blendFunction": 13,
+                "eskil": false,
+                "darkness": 0.5,
+                "offset": 0.5
+            },
+            "noise": {"enabled": false, "opacity": 1, "blendFunction": 14},
+            "colorAverage": {"enabled": false, "opacity": 1, "blendFunction": 13},
+            "hueSaturation": {
+                "enabled": false,
+                "opacity": 1,
+                "blendFunction": 13,
+                "_hue": 0,
+                "hue": 0,
+                "saturation": 0
+            },
+            "brightnessContrast": {"enabled": false, "opacity": 1, "blendFunction": 13, "contrast": 0, "brightness": 0},
+            "depthOfField": {
+                "enabled": false,
+                "opacity": 1,
+                "blendFunction": 13,
+                "focalLength": 0.1,
+                "focusDistance": 0,
+                "bokehScale": 1
+            },
+            "pixelation": {"enabled": false, "opacity": 1, "blendFunction": 13, "granularity": 30}
+        }
+    },
+    "metadata": {"version": 1.5, "type": "Object", "generator": "Object3D.toJSON"},
+    "geometries": [
+        {
+            "uuid": "C30B75EA-4715-4ABB-8574-F0337ECBC337",
+            "userData": {
+                "parameters": {
+                    "width": 92,
+                    "widthSegments": 1,
+                    "heightSegments": 1,
+                    "depthSegments": 1,
+                    "cornerRadius": 19,
+                    "cornerSegments": 13,
+                    "height": 92,
+                    "depth": 92
+                },
+                "type": "CubeGeometry"
+            }
+        },
+        {
+            "uuid": "A86DC406-58BE-4710-87BD-3DB20F528DAA",
+            "userData": {
+                "parameters": {
+                    "width": 148,
+                    "radialSegments": 32,
+                    "heightSegments": 32,
+                    "openEnded": false,
+                    "thetaStart": 0,
+                    "thetaLength": 360,
+                    "cornerRadiusTop": 17,
+                    "cornerRadiusBottom": 20,
+                    "cornerSegments": 17,
+                    "height": 140,
+                    "depth": 148
+                },
+                "type": "ConeGeometry"
+            }
+        },
+        {
+            "uuid": "03F68808-D555-430E-A3AB-24F431AB6B62",
+            "userData": {
+                "parameters": {
+                    "width": 125,
+                    "radialSegments": 64,
+                    "heightSegments": 1,
+                    "openEnded": false,
+                    "thetaStart": 0,
+                    "thetaLength": 360,
+                    "cornerRadius": 13,
+                    "cornerSegments": 12,
+                    "hollow": 0,
+                    "height": 125,
+                    "depth": 125,
+                    "radiusTop": 62.5,
+                    "radiusBottom": 62.5
+                },
+                "type": "CylinderGeometry"
+            }
+        },
+        {
+            "uuid": "4B6CED08-EB5A-4349-A91D-A8D4436D313C",
+            "userData": {
+                "parameters": {
+                    "width": 118,
+                    "radialSegments": 64,
+                    "heightSegments": 1,
+                    "openEnded": false,
+                    "thetaStart": 0,
+                    "thetaLength": 360,
+                    "cornerRadius": 12,
+                    "cornerSegments": 8,
+                    "hollow": 0.46,
+                    "height": 73,
+                    "depth": 118,
+                    "radiusTop": 59,
+                    "radiusBottom": 59
+                },
+                "type": "CylinderGeometry"
+            }
+        }
+    ],
+    "materials": [
+        {
+            "uuid": "4A374B17-DA76-44E8-AB19-F94AD111924B",
+            "type": "ShaderMaterial",
+            "reflectivity": {
+                "uuid": "5F2F56BB-99C4-4C02-AC4C-1523B330E378",
+                "type": "f",
+                "value": 0.5,
+                "nodeType": "Float"
+            },
+            "transparent": true,
+            "depthFunc": 3,
+            "depthTest": true,
+            "depthWrite": true,
+            "colorWrite": true,
+            "stencilWrite": false,
+            "stencilWriteMask": 255,
+            "stencilFunc": 519,
+            "stencilRef": 0,
+            "stencilFuncMask": 255,
+            "stencilFail": 7680,
+            "stencilZFail": 7680,
+            "stencilZPass": 7680,
+            "dithering": true,
+            "wireframeLinecap": "",
+            "wireframeLinejoin": "",
+            "userData": {
+                "type": "PhysicalMaterial",
+                "category": "Physical",
+                "nodeType": "StandardNodeMaterial",
+                "layers": {
+                    "id": 3,
+                    "uuid": "5D9D11A0-23BD-4C6C-B99C-C1D143FCC19C",
+                    "head": {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "3AF43B0D-84A0-48A1-8258-07AD9E52BA43",
+                            "f0_alpha": "EDB56718-A4BE-4D09-B3A3-81EB4F13CF45",
+                            "f0_mode": "0E38775C-01F6-483E-9018-440A3224212D"
+                        },
+                        "next": {
+                            "id": 1,
+                            "type": "light",
+                            "defines": {},
+                            "uniforms": {
+                                "f1_alpha": "5ABDE8A2-2AFF-4E0C-8A98-0DABF83001DB",
+                                "f1_mode": "71CF18C9-BCD9-46CC-BC2D-E3BBC1359D96"
+                            },
+                            "next": {
+                                "id": 2,
+                                "type": "fresnel",
+                                "defines": {},
+                                "uniforms": {
+                                    "f2_color": "C7BCE94F-A105-4208-B2FF-C6FEF62F7B0D",
+                                    "f2_bias": "15D1BE78-634F-4EC7-81C5-945FB23682C1",
+                                    "f2_scale": "D71C37F2-D123-40DA-92CA-A32148C689DF",
+                                    "f2_intensity": "BB6619A0-4871-4ADB-B70B-1DC7DF1EED73",
+                                    "f2_factor": "32177F2D-C51D-4BBC-84D6-CAD3D9A00303",
+                                    "f2_alpha": "A46C7C82-4A97-4924-9346-5BACC49D186A",
+                                    "f2_mode": "E7B79A35-56AF-4EF4-BE1F-2B3E0B10E8CF"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "glslVersion": null,
+            "defines": {"STANDARD": 1},
+            "extensions": {"derivatives": true, "shaderTextureLOD": true},
+            "vertex": "51FD32F3-09CC-4FFE-BA71-00900888046A",
+            "fragment": "51FD32F3-09CC-4FFE-BA71-00900888046A"
+        },
+        {
+            "uuid": "5108FB14-0D22-4AEC-95CB-F632B34DB907",
+            "type": "ShaderMaterial",
+            "reflectivity": {
+                "uuid": "CF8868DA-645C-4C51-A08B-6BE65070F39D",
+                "type": "f",
+                "value": 0.5,
+                "nodeType": "Float"
+            },
+            "transparent": true,
+            "depthFunc": 3,
+            "depthTest": true,
+            "depthWrite": true,
+            "colorWrite": true,
+            "stencilWrite": false,
+            "stencilWriteMask": 255,
+            "stencilFunc": 519,
+            "stencilRef": 0,
+            "stencilFuncMask": 255,
+            "stencilFail": 7680,
+            "stencilZFail": 7680,
+            "stencilZPass": 7680,
+            "dithering": true,
+            "wireframeLinecap": "",
+            "wireframeLinejoin": "",
+            "userData": {
+                "type": "PhysicalMaterial",
+                "category": "Physical",
+                "nodeType": "StandardNodeMaterial",
+                "layers": {
+                    "id": 3,
+                    "uuid": "001E002E-7337-4ED8-8F81-DE7101CCB9A8",
+                    "head": {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "FE248975-1214-443C-86F8-6E6A79603B6A",
+                            "f0_alpha": "A87C3654-077F-46BA-8102-56AFC9BB69F0",
+                            "f0_mode": "EE436340-4730-4230-8A0C-4D55770E4659"
+                        },
+                        "next": {
+                            "id": 1,
+                            "type": "light",
+                            "defines": {},
+                            "uniforms": {
+                                "f1_alpha": "F394E729-7ABA-41E1-9567-F2022F7C25FB",
+                                "f1_mode": "B8699D25-1C3E-40D0-8B31-78502208F191"
+                            },
+                            "next": {
+                                "id": 2,
+                                "type": "fresnel",
+                                "defines": {},
+                                "uniforms": {
+                                    "f2_color": "A2DC4AE1-D7F0-49B4-8A64-40108E035363",
+                                    "f2_bias": "367CA768-D264-4962-98AB-BAE607261487",
+                                    "f2_scale": "89AE1125-FE35-4E5D-B0CF-0E802A68E9C8",
+                                    "f2_intensity": "061C624B-852B-4641-A258-0B1BB5EE8300",
+                                    "f2_factor": "FA48FB66-4C25-4BC0-8F38-098E5F7A2B61",
+                                    "f2_alpha": "BEBD4630-2A66-4D44-9C7A-2E7AF5CEDA45",
+                                    "f2_mode": "AA24646A-24DD-4ABD-B979-504B3B898E68"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "glslVersion": null,
+            "defines": {"STANDARD": 1},
+            "extensions": {"derivatives": true, "shaderTextureLOD": true},
+            "vertex": "C85B909C-07A0-49F2-B410-A7140D95B061",
+            "fragment": "C85B909C-07A0-49F2-B410-A7140D95B061"
+        },
+        {
+            "uuid": "BC44CDF9-C6F5-43A0-BCA6-A447629EA7D6",
+            "type": "ShaderMaterial",
+            "reflectivity": {
+                "uuid": "187DB6D5-728E-4D8A-B00A-A9472A09AC00",
+                "type": "f",
+                "value": 0.5,
+                "nodeType": "Float"
+            },
+            "transparent": true,
+            "depthFunc": 3,
+            "depthTest": true,
+            "depthWrite": true,
+            "colorWrite": true,
+            "stencilWrite": false,
+            "stencilWriteMask": 255,
+            "stencilFunc": 519,
+            "stencilRef": 0,
+            "stencilFuncMask": 255,
+            "stencilFail": 7680,
+            "stencilZFail": 7680,
+            "stencilZPass": 7680,
+            "dithering": true,
+            "wireframeLinecap": "",
+            "wireframeLinejoin": "",
+            "userData": {
+                "type": "PhysicalMaterial",
+                "category": "Physical",
+                "nodeType": "StandardNodeMaterial",
+                "layers": {
+                    "id": 3,
+                    "uuid": "A9951FEA-63C3-440C-9FC5-FD09D37A0B6C",
+                    "head": {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "6C39620E-A0E1-4E09-8BBE-14418C52240E",
+                            "f0_alpha": "5AAB92E2-937E-43A6-82F4-676552AE0AEA",
+                            "f0_mode": "C7A5C804-CA42-438D-99D3-B0645BBCD9C7"
+                        },
+                        "next": {
+                            "id": 1,
+                            "type": "light",
+                            "defines": {},
+                            "uniforms": {
+                                "f1_alpha": "661BD943-3FCE-461A-8828-021DC24B04E6",
+                                "f1_mode": "0C14DCFD-D3F3-4DF1-A549-37FFB28762D7"
+                            },
+                            "next": {
+                                "id": 2,
+                                "type": "fresnel",
+                                "defines": {},
+                                "uniforms": {
+                                    "f2_color": "BBC5CA0D-F491-4592-92B9-5156C61639A7",
+                                    "f2_bias": "7FF96831-1111-461E-A43E-733D655DFE90",
+                                    "f2_scale": "8BB4ADEB-375E-4A60-9567-0B40B3FF92FA",
+                                    "f2_intensity": "4B10609F-2D94-4672-AD52-71BB98F80585",
+                                    "f2_factor": "A5EEDD8F-0302-4FDA-8B38-3B50592B7727",
+                                    "f2_alpha": "1C183579-8EC5-4099-AFB3-0438901F1E69",
+                                    "f2_mode": "AD0DC387-4D28-47C9-BF94-41CE6CFB41B1"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "glslVersion": null,
+            "defines": {"STANDARD": 1},
+            "extensions": {"derivatives": true, "shaderTextureLOD": true},
+            "vertex": "99FEE1E9-54F9-4D1B-BFF3-C2F2F2DAE590",
+            "fragment": "99FEE1E9-54F9-4D1B-BFF3-C2F2F2DAE590"
+        },
+        {
+            "uuid": "80608570-ADFB-4862-AF08-C3053F08AF78",
+            "type": "ShaderMaterial",
+            "reflectivity": {
+                "uuid": "35C68469-48B6-4486-94DB-0B2544226F81",
+                "type": "f",
+                "value": 0.5,
+                "nodeType": "Float"
+            },
+            "transparent": true,
+            "depthFunc": 3,
+            "depthTest": true,
+            "depthWrite": true,
+            "colorWrite": true,
+            "stencilWrite": false,
+            "stencilWriteMask": 255,
+            "stencilFunc": 519,
+            "stencilRef": 0,
+            "stencilFuncMask": 255,
+            "stencilFail": 7680,
+            "stencilZFail": 7680,
+            "stencilZPass": 7680,
+            "dithering": true,
+            "wireframeLinecap": "",
+            "wireframeLinejoin": "",
+            "userData": {
+                "type": "PhysicalMaterial",
+                "category": "Physical",
+                "nodeType": "StandardNodeMaterial",
+                "layers": {
+                    "id": 3,
+                    "uuid": "815C8036-68B3-4504-B4E1-7788FC6499F2",
+                    "head": {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "335B8AB2-FE81-49FA-BF7B-B3B7AEE6361A",
+                            "f0_alpha": "118D6B25-293F-4AAB-A727-E95A8454ADB3",
+                            "f0_mode": "A6C0D5A6-19D7-431A-8CEA-DEDAA2894D11"
+                        },
+                        "next": {
+                            "id": 1,
+                            "type": "light",
+                            "defines": {},
+                            "uniforms": {
+                                "f1_alpha": "EBA03819-DB20-418E-8FD1-991F96DB435A",
+                                "f1_mode": "5A34B168-1E05-44BD-B5D0-1D8F41E7B692"
+                            },
+                            "next": {
+                                "id": 2,
+                                "type": "fresnel",
+                                "defines": {},
+                                "uniforms": {
+                                    "f2_color": "9692687A-9AF8-4E6E-9A24-A2190EAEEE70",
+                                    "f2_bias": "D38D7683-283C-4AE7-AA27-52B1F5DEE92C",
+                                    "f2_scale": "06E4CA9E-DCF3-4D5C-842E-36A09E6B7B33",
+                                    "f2_intensity": "150DBB19-57E0-4D01-9701-FE94F27457EC",
+                                    "f2_factor": "60797BC8-A072-4174-B492-81A66922C3E7",
+                                    "f2_alpha": "392916DC-A822-456F-9377-A05A0033ABB5",
+                                    "f2_mode": "9552FFA5-3AFB-4B8D-8F50-B10F9D69B44C"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "glslVersion": null,
+            "defines": {"STANDARD": 1},
+            "extensions": {"derivatives": true, "shaderTextureLOD": true},
+            "vertex": "41CAB8C5-EE5A-4457-9010-9BBA0FFFFE6A",
+            "fragment": "41CAB8C5-EE5A-4457-9010-9BBA0FFFFE6A"
+        }
+    ],
+    "interactionStates": [
+        {
+            "uuid": "9CBC39D7-33D0-4640-A1E8-F7E7D136A3CE",
+            "name": "Base State",
+            "position": [-228.3105387725118, 123.40274015275851, 44.679065178826576],
+            "rotation": [-0.28643345286344, 0.41578729262741465, -0.5327698060972423, "XYZ"],
+            "scale": [0.9999999999999997, 0.9999999999999988, 0.9999999999999968],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 92, "height": 92, "depth": 92},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "CFD49B4E-9A1F-4A4D-8CDF-6B85EB403BBD",
+                            "f0_alpha": "958BD95A-CFFA-41AF-9923-7259410C64D7",
+                            "f0_mode": "F36650F4-8613-44E0-A857-89A0A13AE510"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "545A379A-8111-4A4A-BEC2-9FCF2BA37C10",
+                            "f1_mode": "4C717A79-E0DB-4699-B0FE-32F80B9E6564"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "1EB0DF93-9D4D-4639-8E95-E42D915585DD",
+                            "f2_bias": "7D0E39CF-B6E2-4549-9A9F-67C6FCDE7CF8",
+                            "f2_scale": "809B81FE-18CA-4C0A-955E-0DFFE842DC81",
+                            "f2_intensity": "EE1F8D89-8269-44C9-89C1-0BE5CCCCA74A",
+                            "f2_factor": "04567DAD-043E-41E5-9179-2DE1521EE12D",
+                            "f2_alpha": "C9970B28-476D-46A6-8C2A-B3E8734C4A77",
+                            "f2_mode": "D44C44F5-2766-4696-B78D-689FEF1939F1"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "63D2A7FB-5FA3-4784-BCD2-2F41D89295A9",
+            "name": "State 1",
+            "position": [-228.3105387725118, 116.4, 44.679065178826576],
+            "rotation": [-0.28643345286344, 0.41578729262741465, -0.5327698060972423, "XYZ"],
+            "scale": [0.9999999999999997, 0.9999999999999988, 0.9999999999999968],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 92, "height": 92, "depth": 92},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "86AF372B-BA12-48DF-B7BD-902F004EA2F0",
+                            "f0_alpha": "57F5CBC2-EDDE-4CCC-A676-C53DF1E34409",
+                            "f0_mode": "DA4F15D9-7653-406B-A5F7-AC401447D260"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "B62B06E6-0908-4B83-ACDE-AF1376BB5A2B",
+                            "f1_mode": "00FEBF38-9D73-41DC-BB4A-19BA0737B3E2"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "1C4938D6-98D1-46F8-B319-70D40D2EC12A",
+                            "f2_bias": "ABE1B128-06CF-4C81-A45A-44BBED6C654D",
+                            "f2_scale": "F5D6118D-629F-4371-8378-10DE1B11F622",
+                            "f2_intensity": "5FB219D3-F3C8-4688-AF3A-2F63A9DF213E",
+                            "f2_factor": "D45161B7-361E-4592-8D2F-40C2DBC28D3D",
+                            "f2_alpha": "2F7CC8E7-AB55-4F0F-AEF5-EB5F9F64AC1F",
+                            "f2_mode": "D38CB829-B1E0-406E-9A48-D96AB66C415F"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "BF6986AC-D417-4063-86C1-ED4191F168BB",
+            "name": "Base State",
+            "position": [292.86079972850877, -98.36947719414823, 48.78075796403225],
+            "rotation": [-0.36364402086262265, 0.1935461495644754, 0.8204910394779581, "XYZ"],
+            "scale": [0.9999999999999997, 1, 1.0000000000000002],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 148, "height": 140, "depth": 148},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "7A0AEAC7-0DA5-43FB-B677-96A79A584911",
+                            "f0_alpha": "1717A528-D3B4-437A-A081-FDA29F093217",
+                            "f0_mode": "7EAFDB0A-12F5-4894-BA2F-D903432F1836"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "C5FED156-C0B9-4D80-BEFB-E66939BCCAF4",
+                            "f1_mode": "F4B8AEE7-0030-4213-A7D5-60679798AC3F"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "A4A4D00A-3D13-4FAA-9BC4-8FEEDE2B37AB",
+                            "f2_bias": "D2B8AE2C-109E-448F-B254-2EBAB5574CEE",
+                            "f2_scale": "80A43014-F5D3-4D00-92D3-16BDB8687AE1",
+                            "f2_intensity": "553963F7-11D0-4F1E-BDEA-31D75079C661",
+                            "f2_factor": "CDC4B4D1-8572-45F3-B057-B1DA3B141E34",
+                            "f2_alpha": "18873862-8974-4712-BB2E-602D4B1DC799",
+                            "f2_mode": "5357691D-1257-410D-B580-B16BF8F4C21A"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "810DB6E5-CE94-4239-B37C-1BC54623C15F",
+            "name": "State 1",
+            "position": [291.86079972850877, -74.05, 48.78075796403225],
+            "rotation": [-0.36364402086262265, 0.1935461495644754, 0.6633996486830446, "XYZ"],
+            "scale": [0.9999999999999997, 1, 1.0000000000000002],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 148, "height": 140, "depth": 148},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "4F8B6D3D-8B50-4824-8CC7-BEDF2C04D8ED",
+                            "f0_alpha": "8F3537B5-0353-4AA4-8BF7-F7D48A6712B5",
+                            "f0_mode": "3D79ACFE-A1C3-4A9A-8EDF-74A31E4EAA36"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "C1971275-326F-45DA-96D2-A5C42F5B6A86",
+                            "f1_mode": "C41FA1A0-A184-4B77-B017-3C0F5383E4D2"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "04EE7CDF-CCE4-476B-A156-F8C5FAA4F4D3",
+                            "f2_bias": "C7A0CE75-2094-4CB6-84C1-48014F961C90",
+                            "f2_scale": "0110AE91-247F-4793-943A-71286EFA3F8C",
+                            "f2_intensity": "035464A6-DA8E-4647-B611-6E3A069EDF7E",
+                            "f2_factor": "A9E78C91-64EF-415D-A39B-521D9BED558E",
+                            "f2_alpha": "8A698156-0C70-46DE-A1E3-9319F690E8BC",
+                            "f2_mode": "02BCBDA4-CA91-422E-B3F9-443F08B7D695"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "D25CE53B-81AE-4761-A65A-A629F74D54B4",
+            "name": "Base State",
+            "position": [-283.2, -87.30327292075441, 74.17791139942823],
+            "rotation": [0.2967059728390361, 7.632783294297951e-17, -0.3839724354387525, "XYZ"],
+            "scale": [0.9999999999999993, 0.9999999999999987, 0.9999999999999987],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 125, "height": 125, "depth": 125},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "BBBA13C0-C190-4314-99CB-3258D59D14A6",
+                            "f0_alpha": "28ADFEAB-7B68-4604-90F6-9BE7C5A48C81",
+                            "f0_mode": "CB852F80-58C0-4F2D-8073-A76D1447E8CA"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "CE1B2640-CC59-496C-AD52-2A1A5C0307D8",
+                            "f1_mode": "C521F020-7482-44C2-943D-C848BBD77D57"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "99558BD2-BDCC-40DA-9173-4CC1C66E2778",
+                            "f2_bias": "7DD24A76-8E40-4C9E-B48D-9912A73A35D8",
+                            "f2_scale": "D020CEA2-6D6B-4FCD-942A-7B2557A67FC3",
+                            "f2_intensity": "2BB232F0-DA3D-4FDE-A3EB-C79C1D283E4D",
+                            "f2_factor": "AEA79706-5854-4F67-A113-B8F0ED870C61",
+                            "f2_alpha": "C6D44CF2-12EE-429A-8CCA-E54EB818CD88",
+                            "f2_mode": "107097CE-09DF-4AC3-9B18-7100C08D7A23"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "EB2449CC-4831-4C10-AFED-4E2B30662023",
+            "name": "State 1",
+            "position": [-283.2, -73.3, 74.17791139942823],
+            "rotation": [0.2967059728390361, 7.632783294297951e-17, -0.3839724354387525, "XYZ"],
+            "scale": [0.9999999999999993, 0.9999999999999987, 0.9999999999999987],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 125, "height": 125, "depth": 125},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "1FCA6418-2827-45AF-8037-C25790A0CDE4",
+                            "f0_alpha": "2DF39330-6F35-45FE-9711-2462B47A10C6",
+                            "f0_mode": "D3A7F74D-2903-451F-A78D-F8E6CD5D7C1F"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "58D056D5-EB4C-4DBC-81D8-24689C857E1A",
+                            "f1_mode": "3052266A-8F0E-4D37-A191-EEACA7F3CA48"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "9C9D322A-FFF2-48E2-9147-1B601730B38E",
+                            "f2_bias": "2661F87D-A161-4E22-969E-AA14AB5FB7E0",
+                            "f2_scale": "CCD94512-745A-45C8-8024-BC9AD7D38DBE",
+                            "f2_intensity": "D98AC948-E4B4-4684-BCF7-7772FD0E4A88",
+                            "f2_factor": "51B38952-0911-415F-878E-D26EA9EE3C64",
+                            "f2_alpha": "D87B56E6-DF33-436D-A5AB-2119F3396C8D",
+                            "f2_mode": "9016DFDC-4013-4EF1-8688-424ECD545FD8"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "5B321510-1DCB-4D4C-8105-9EDDE97BF265",
+            "name": "Base State",
+            "position": [158.50329911379518, 156.1260944335936, 57.4264500000001],
+            "rotation": [1.6755160819145565, -0.05368602310338189, 0.24434609527920623, "XYZ"],
+            "scale": [1.2647000000000002, 1.2647000000000297, 1.2647000000000304],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 118, "height": 73, "depth": 118},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "C2B34259-3975-4FA1-AE89-AA0F9B991660",
+                            "f0_alpha": "82D13973-DCB5-48B7-9617-A00F1221F131",
+                            "f0_mode": "2D2B47A9-D16D-4071-86E8-91BB43BE3AE8"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "C4EFF2B1-46FC-4D7A-8412-C4A9EDE15D24",
+                            "f1_mode": "0D04C213-91D1-46DA-986C-A2C5AB370EC9"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "CEB733EB-FE19-4DDD-9FAC-3F591D46808B",
+                            "f2_bias": "97CCF29E-DDE1-45FA-81C1-FBE55AA2E432",
+                            "f2_scale": "14F98C5D-5174-4147-9D57-DEB46DF889C5",
+                            "f2_intensity": "E2F70C80-586A-4369-916A-33A07A538574",
+                            "f2_factor": "B266DB8D-F676-4D82-8196-240F8A149DC8",
+                            "f2_alpha": "8669F004-91E2-4384-B301-667A0EA96179",
+                            "f2_mode": "11BAE00B-458C-4550-81FB-E9BA23C4B1F8"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "uuid": "DAFD9AAF-7978-4B6A-859D-2B07B5EB7AB6",
+            "name": "State 1",
+            "position": [158.50329911379518, 156.1260944335936, 57.4264500000001],
+            "rotation": [1.6755160819145565, -0.05368602310338189, 0.24434609527920623, "XYZ"],
+            "scale": [1.2647000000000002, 1.2647000000000297, 1.2647000000000304],
+            "hiddenMatrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
+            "geometry": {"width": 118, "height": 73, "depth": 118},
+            "material": {
+                "layersList": [
+                    {
+                        "id": 0,
+                        "type": "color",
+                        "defines": {},
+                        "uniforms": {
+                            "f0_color": "5C9C039F-90C6-4D61-8E3A-EB99285B8F6C",
+                            "f0_alpha": "323DD2C8-77EC-4168-AC48-91966333964F",
+                            "f0_mode": "04D7885B-BDC3-41CB-B6B2-06CBC2A2EA61"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "type": "light",
+                        "defines": {},
+                        "uniforms": {
+                            "f1_alpha": "64AABD98-5877-4555-9446-3BE7E4F68FC0",
+                            "f1_mode": "6D683811-507B-4879-A27C-F5190B603F66"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "type": "fresnel",
+                        "defines": {},
+                        "uniforms": {
+                            "f2_color": "A847A6AB-0D2A-4BCA-8BBD-33E7E10E0C5D",
+                            "f2_bias": "FA05A0E9-9883-487A-ABA5-1D264681F3FF",
+                            "f2_scale": "A6A2A48A-D634-4B1E-95F3-383E48286204",
+                            "f2_intensity": "EC1FC2CC-9807-4804-BD27-79774370EF51",
+                            "f2_factor": "44C11484-E598-4CA6-9E64-970D8DAF5D6C",
+                            "f2_alpha": "40EF54C1-9F07-4D62-855A-85C05742718E",
+                            "f2_mode": "A74B299D-550E-4A39-9D8B-1F0A5EC36B9C"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "uuid": "CFD49B4E-9A1F-4A4D-8CDF-6B85EB403BBD",
+            "type": "c",
+            "r": 0.21568627450980393,
+            "g": 0.22745098039215686,
+            "b": 0.24313725490196078,
+            "value": 3619390,
+            "alpha": "00A23638-0769-4606-BAAE-AF032DB16992",
+            "nodeType": "Color"
+        },
+        {"uuid": "00A23638-0769-4606-BAAE-AF032DB16992", "type": "f", "value": 0.34, "nodeType": "Float"},
+        {"uuid": "958BD95A-CFFA-41AF-9923-7259410C64D7", "type": "f", "value": 0.34, "nodeType": "Float"},
+        {"uuid": "F36650F4-8613-44E0-A857-89A0A13AE510", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "545A379A-8111-4A4A-BEC2-9FCF2BA37C10", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "4C717A79-E0DB-4699-B0FE-32F80B9E6564", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "1EB0DF93-9D4D-4639-8E95-E42D915585DD",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "7D0E39CF-B6E2-4549-9A9F-67C6FCDE7CF8", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "809B81FE-18CA-4C0A-955E-0DFFE842DC81", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "EE1F8D89-8269-44C9-89C1-0BE5CCCCA74A", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "04567DAD-043E-41E5-9179-2DE1521EE12D", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "C9970B28-476D-46A6-8C2A-B3E8734C4A77", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "D44C44F5-2766-4696-B78D-689FEF1939F1", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "86AF372B-BA12-48DF-B7BD-902F004EA2F0",
+            "type": "c",
+            "r": 0.043137254901960784,
+            "g": 0.047058823529411764,
+            "b": 0.054901960784313725,
+            "value": 723982,
+            "alpha": "A8F2988B-11ED-43F2-9D40-091738E5E879",
+            "nodeType": "Color"
+        },
+        {"uuid": "A8F2988B-11ED-43F2-9D40-091738E5E879", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "57F5CBC2-EDDE-4CCC-A676-C53DF1E34409", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "DA4F15D9-7653-406B-A5F7-AC401447D260", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "B62B06E6-0908-4B83-ACDE-AF1376BB5A2B", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "00FEBF38-9D73-41DC-BB4A-19BA0737B3E2", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "1C4938D6-98D1-46F8-B319-70D40D2EC12A",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "ABE1B128-06CF-4C81-A45A-44BBED6C654D", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "F5D6118D-629F-4371-8378-10DE1B11F622", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "5FB219D3-F3C8-4688-AF3A-2F63A9DF213E", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "D45161B7-361E-4592-8D2F-40C2DBC28D3D", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "2F7CC8E7-AB55-4F0F-AEF5-EB5F9F64AC1F", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "D38CB829-B1E0-406E-9A48-D96AB66C415F", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "3AF43B0D-84A0-48A1-8258-07AD9E52BA43",
+            "type": "c",
+            "r": 0.21568627450980393,
+            "g": 0.22745098039215686,
+            "b": 0.24313725490196078,
+            "value": 3619390,
+            "alpha": "EDB56718-A4BE-4D09-B3A3-81EB4F13CF45",
+            "nodeType": "Color"
+        },
+        {"uuid": "EDB56718-A4BE-4D09-B3A3-81EB4F13CF45", "type": "f", "value": 0.34, "nodeType": "Float"},
+        {"uuid": "0E38775C-01F6-483E-9018-440A3224212D", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "5ABDE8A2-2AFF-4E0C-8A98-0DABF83001DB", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "71CF18C9-BCD9-46CC-BC2D-E3BBC1359D96", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "C7BCE94F-A105-4208-B2FF-C6FEF62F7B0D",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "15D1BE78-634F-4EC7-81C5-945FB23682C1", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "D71C37F2-D123-40DA-92CA-A32148C689DF", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "BB6619A0-4871-4ADB-B70B-1DC7DF1EED73", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "32177F2D-C51D-4BBC-84D6-CAD3D9A00303", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "A46C7C82-4A97-4924-9346-5BACC49D186A", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "E7B79A35-56AF-4EF4-BE1F-2B3E0B10E8CF", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "51FD32F3-09CC-4FFE-BA71-00900888046A",
+            "type": "standard",
+            "color": "3AF43B0D-84A0-48A1-8258-07AD9E52BA43",
+            "roughness": "FABB8445-A209-4258-BD93-D0A273AA8AC0",
+            "metalness": "8D3AB724-6081-4154-A89E-8044BE78834F",
+            "alpha": "D59DE133-3E64-4D63-888C-B114125F0CFE",
+            "reflectivity": "5F2F56BB-99C4-4C02-AC4C-1523B330E378",
+            "shadingAlpha": "5ABDE8A2-2AFF-4E0C-8A98-0DABF83001DB",
+            "shadingBlend": "71CF18C9-BCD9-46CC-BC2D-E3BBC1359D96",
+            "afterColor": "5716B616-9446-4165-848F-58B163B7D965",
+            "nodeType": "Standard"
+        },
+        {"uuid": "FABB8445-A209-4258-BD93-D0A273AA8AC0", "type": "f", "value": 0.47, "nodeType": "Float"},
+        {"uuid": "8D3AB724-6081-4154-A89E-8044BE78834F", "type": "f", "value": 0, "nodeType": "Float"},
+        {"uuid": "D59DE133-3E64-4D63-888C-B114125F0CFE", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "5F2F56BB-99C4-4C02-AC4C-1523B330E378", "type": "f", "value": 0.5, "nodeType": "Float"},
+        {
+            "uuid": "5716B616-9446-4165-848F-58B163B7D965",
+            "type": "v3",
+            "a": "A1585BE7-4B88-4936-AA09-930416289D39",
+            "b": "88DEB9B5-F845-4986-888B-C6F72F6E3D69",
+            "alpha": "2761420D-FA28-4819-B625-89AF97FAD5FA",
+            "mode": "E7B79A35-56AF-4EF4-BE1F-2B3E0B10E8CF",
+            "nodeType": "Blend"
+        },
+        {
+            "uuid": "A1585BE7-4B88-4936-AA09-930416289D39",
+            "type": "f",
+            "src": "outgoingLight",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "88DEB9B5-F845-4986-888B-C6F72F6E3D69",
+            "type": "v3",
+            "color": "C7BCE94F-A105-4208-B2FF-C6FEF62F7B0D",
+            "bias": "15D1BE78-634F-4EC7-81C5-945FB23682C1",
+            "scale": "D71C37F2-D123-40DA-92CA-A32148C689DF",
+            "intensity": "BB6619A0-4871-4ADB-B70B-1DC7DF1EED73",
+            "factor": "32177F2D-C51D-4BBC-84D6-CAD3D9A00303",
+            "alpha": "A46C7C82-4A97-4924-9346-5BACC49D186A",
+            "mode": "E7B79A35-56AF-4EF4-BE1F-2B3E0B10E8CF",
+            "calpha": "g88DEB9B5F8454986888BC6F72F6E3D69_calpha",
+            "nodeType": "Fresnel"
+        },
+        {
+            "uuid": "2761420D-FA28-4819-B625-89AF97FAD5FA",
+            "type": "f",
+            "src": "g88DEB9B5F8454986888BC6F72F6E3D69_calpha",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "7A0AEAC7-0DA5-43FB-B677-96A79A584911",
+            "type": "c",
+            "r": 0.9137254901960784,
+            "g": 0.5803921568627451,
+            "b": 0.10980392156862745,
+            "value": 15307804,
+            "alpha": "B68C0FED-10CA-4BF4-8337-D19BAF1CB438",
+            "nodeType": "Color"
+        },
+        {"uuid": "B68C0FED-10CA-4BF4-8337-D19BAF1CB438", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "1717A528-D3B4-437A-A081-FDA29F093217", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "7EAFDB0A-12F5-4894-BA2F-D903432F1836", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "C5FED156-C0B9-4D80-BEFB-E66939BCCAF4", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "F4B8AEE7-0030-4213-A7D5-60679798AC3F", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "A4A4D00A-3D13-4FAA-9BC4-8FEEDE2B37AB",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "D2B8AE2C-109E-448F-B254-2EBAB5574CEE", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "80A43014-F5D3-4D00-92D3-16BDB8687AE1", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "553963F7-11D0-4F1E-BDEA-31D75079C661", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "CDC4B4D1-8572-45F3-B057-B1DA3B141E34", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "18873862-8974-4712-BB2E-602D4B1DC799", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "5357691D-1257-410D-B580-B16BF8F4C21A", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "4F8B6D3D-8B50-4824-8CC7-BEDF2C04D8ED",
+            "type": "c",
+            "r": 0.9137254901960784,
+            "g": 0.5803921568627451,
+            "b": 0.10980392156862745,
+            "value": 15307804,
+            "alpha": "458EC610-B327-4124-B321-1FEEB29C1993",
+            "nodeType": "Color"
+        },
+        {"uuid": "458EC610-B327-4124-B321-1FEEB29C1993", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "8F3537B5-0353-4AA4-8BF7-F7D48A6712B5", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "3D79ACFE-A1C3-4A9A-8EDF-74A31E4EAA36", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "C1971275-326F-45DA-96D2-A5C42F5B6A86", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "C41FA1A0-A184-4B77-B017-3C0F5383E4D2", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "04EE7CDF-CCE4-476B-A156-F8C5FAA4F4D3",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "C7A0CE75-2094-4CB6-84C1-48014F961C90", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "0110AE91-247F-4793-943A-71286EFA3F8C", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "035464A6-DA8E-4647-B611-6E3A069EDF7E", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "A9E78C91-64EF-415D-A39B-521D9BED558E", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "8A698156-0C70-46DE-A1E3-9319F690E8BC", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "02BCBDA4-CA91-422E-B3F9-443F08B7D695", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "FE248975-1214-443C-86F8-6E6A79603B6A",
+            "type": "c",
+            "r": 0.9137254901960784,
+            "g": 0.5803921568627451,
+            "b": 0.10980392156862745,
+            "value": 15307804,
+            "alpha": "A87C3654-077F-46BA-8102-56AFC9BB69F0",
+            "nodeType": "Color"
+        },
+        {"uuid": "A87C3654-077F-46BA-8102-56AFC9BB69F0", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "EE436340-4730-4230-8A0C-4D55770E4659", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "F394E729-7ABA-41E1-9567-F2022F7C25FB", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "B8699D25-1C3E-40D0-8B31-78502208F191", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "A2DC4AE1-D7F0-49B4-8A64-40108E035363",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "367CA768-D264-4962-98AB-BAE607261487", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "89AE1125-FE35-4E5D-B0CF-0E802A68E9C8", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "061C624B-852B-4641-A258-0B1BB5EE8300", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "FA48FB66-4C25-4BC0-8F38-098E5F7A2B61", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "BEBD4630-2A66-4D44-9C7A-2E7AF5CEDA45", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "AA24646A-24DD-4ABD-B979-504B3B898E68", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "C85B909C-07A0-49F2-B410-A7140D95B061",
+            "type": "standard",
+            "color": "FE248975-1214-443C-86F8-6E6A79603B6A",
+            "roughness": "51F4D557-F0C0-49FA-91CF-9D4557E0C894",
+            "metalness": "664489E2-3CCE-4668-829F-330BB5E112B9",
+            "alpha": "0657093E-7948-4F14-AAC0-A65FB17B9E93",
+            "reflectivity": "CF8868DA-645C-4C51-A08B-6BE65070F39D",
+            "shadingAlpha": "F394E729-7ABA-41E1-9567-F2022F7C25FB",
+            "shadingBlend": "B8699D25-1C3E-40D0-8B31-78502208F191",
+            "afterColor": "995B343F-D69F-4456-B357-27B0AEAF4431",
+            "nodeType": "Standard"
+        },
+        {"uuid": "51F4D557-F0C0-49FA-91CF-9D4557E0C894", "type": "f", "value": 0.3, "nodeType": "Float"},
+        {"uuid": "664489E2-3CCE-4668-829F-330BB5E112B9", "type": "f", "value": 0, "nodeType": "Float"},
+        {"uuid": "0657093E-7948-4F14-AAC0-A65FB17B9E93", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "CF8868DA-645C-4C51-A08B-6BE65070F39D", "type": "f", "value": 0.5, "nodeType": "Float"},
+        {
+            "uuid": "995B343F-D69F-4456-B357-27B0AEAF4431",
+            "type": "v3",
+            "a": "6A7D5A29-582D-4015-9AE2-5371CC8BBB82",
+            "b": "C5B1CFC0-3826-47B4-A1EE-5F4586ADF132",
+            "alpha": "C31CA815-5062-4C0F-95F0-BF50AB18ED0A",
+            "mode": "AA24646A-24DD-4ABD-B979-504B3B898E68",
+            "nodeType": "Blend"
+        },
+        {
+            "uuid": "6A7D5A29-582D-4015-9AE2-5371CC8BBB82",
+            "type": "f",
+            "src": "outgoingLight",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "C5B1CFC0-3826-47B4-A1EE-5F4586ADF132",
+            "type": "v3",
+            "color": "A2DC4AE1-D7F0-49B4-8A64-40108E035363",
+            "bias": "367CA768-D264-4962-98AB-BAE607261487",
+            "scale": "89AE1125-FE35-4E5D-B0CF-0E802A68E9C8",
+            "intensity": "061C624B-852B-4641-A258-0B1BB5EE8300",
+            "factor": "FA48FB66-4C25-4BC0-8F38-098E5F7A2B61",
+            "alpha": "BEBD4630-2A66-4D44-9C7A-2E7AF5CEDA45",
+            "mode": "AA24646A-24DD-4ABD-B979-504B3B898E68",
+            "calpha": "gC5B1CFC0382647B4A1EE5F4586ADF132_calpha",
+            "nodeType": "Fresnel"
+        },
+        {
+            "uuid": "C31CA815-5062-4C0F-95F0-BF50AB18ED0A",
+            "type": "f",
+            "src": "gC5B1CFC0382647B4A1EE5F4586ADF132_calpha",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "BBBA13C0-C190-4314-99CB-3258D59D14A6",
+            "type": "c",
+            "r": 0.07058823529411765,
+            "g": 0.8549019607843137,
+            "b": 0.6470588235294118,
+            "value": 1235621,
+            "alpha": "852C11BD-F1C3-41E2-A4F7-FDADB9D1D692",
+            "nodeType": "Color"
+        },
+        {"uuid": "852C11BD-F1C3-41E2-A4F7-FDADB9D1D692", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "28ADFEAB-7B68-4604-90F6-9BE7C5A48C81", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "CB852F80-58C0-4F2D-8073-A76D1447E8CA", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "CE1B2640-CC59-496C-AD52-2A1A5C0307D8", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "C521F020-7482-44C2-943D-C848BBD77D57", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "99558BD2-BDCC-40DA-9173-4CC1C66E2778",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "7DD24A76-8E40-4C9E-B48D-9912A73A35D8", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "D020CEA2-6D6B-4FCD-942A-7B2557A67FC3", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "2BB232F0-DA3D-4FDE-A3EB-C79C1D283E4D", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "AEA79706-5854-4F67-A113-B8F0ED870C61", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "C6D44CF2-12EE-429A-8CCA-E54EB818CD88", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "107097CE-09DF-4AC3-9B18-7100C08D7A23", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "1FCA6418-2827-45AF-8037-C25790A0CDE4",
+            "type": "c",
+            "r": 0.07058823529411765,
+            "g": 0.8549019607843137,
+            "b": 0.6470588235294118,
+            "value": 1235621,
+            "alpha": "FADBDC76-A249-4B43-8BCD-08D0CA5B4176",
+            "nodeType": "Color"
+        },
+        {"uuid": "FADBDC76-A249-4B43-8BCD-08D0CA5B4176", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "2DF39330-6F35-45FE-9711-2462B47A10C6", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "D3A7F74D-2903-451F-A78D-F8E6CD5D7C1F", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "58D056D5-EB4C-4DBC-81D8-24689C857E1A", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "3052266A-8F0E-4D37-A191-EEACA7F3CA48", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "9C9D322A-FFF2-48E2-9147-1B601730B38E",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "2661F87D-A161-4E22-969E-AA14AB5FB7E0", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "CCD94512-745A-45C8-8024-BC9AD7D38DBE", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "D98AC948-E4B4-4684-BCF7-7772FD0E4A88", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "51B38952-0911-415F-878E-D26EA9EE3C64", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "D87B56E6-DF33-436D-A5AB-2119F3396C8D", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "9016DFDC-4013-4EF1-8688-424ECD545FD8", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "6C39620E-A0E1-4E09-8BBE-14418C52240E",
+            "type": "c",
+            "r": 0.07058823529411765,
+            "g": 0.8549019607843137,
+            "b": 0.6470588235294118,
+            "value": 1235621,
+            "alpha": "5AAB92E2-937E-43A6-82F4-676552AE0AEA",
+            "nodeType": "Color"
+        },
+        {"uuid": "5AAB92E2-937E-43A6-82F4-676552AE0AEA", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "C7A5C804-CA42-438D-99D3-B0645BBCD9C7", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "661BD943-3FCE-461A-8828-021DC24B04E6", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "0C14DCFD-D3F3-4DF1-A549-37FFB28762D7", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "BBC5CA0D-F491-4592-92B9-5156C61639A7",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "7FF96831-1111-461E-A43E-733D655DFE90", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "8BB4ADEB-375E-4A60-9567-0B40B3FF92FA", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "4B10609F-2D94-4672-AD52-71BB98F80585", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "A5EEDD8F-0302-4FDA-8B38-3B50592B7727", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "1C183579-8EC5-4099-AFB3-0438901F1E69", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "AD0DC387-4D28-47C9-BF94-41CE6CFB41B1", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "99FEE1E9-54F9-4D1B-BFF3-C2F2F2DAE590",
+            "type": "standard",
+            "color": "6C39620E-A0E1-4E09-8BBE-14418C52240E",
+            "roughness": "C6ADC54E-FC83-4D2D-9EA0-FE6CD83A1D2D",
+            "metalness": "3E94A75E-1BF9-49FD-B92F-AC3F48CF6166",
+            "alpha": "793073A1-95CD-4C7F-9D6E-00D1BE68F2F1",
+            "reflectivity": "187DB6D5-728E-4D8A-B00A-A9472A09AC00",
+            "shadingAlpha": "661BD943-3FCE-461A-8828-021DC24B04E6",
+            "shadingBlend": "0C14DCFD-D3F3-4DF1-A549-37FFB28762D7",
+            "afterColor": "8C7E6604-E434-4FA0-896A-BEA0FC40E57E",
+            "nodeType": "Standard"
+        },
+        {"uuid": "C6ADC54E-FC83-4D2D-9EA0-FE6CD83A1D2D", "type": "f", "value": 0.37, "nodeType": "Float"},
+        {"uuid": "3E94A75E-1BF9-49FD-B92F-AC3F48CF6166", "type": "f", "value": 0, "nodeType": "Float"},
+        {"uuid": "793073A1-95CD-4C7F-9D6E-00D1BE68F2F1", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "187DB6D5-728E-4D8A-B00A-A9472A09AC00", "type": "f", "value": 0.5, "nodeType": "Float"},
+        {
+            "uuid": "8C7E6604-E434-4FA0-896A-BEA0FC40E57E",
+            "type": "v3",
+            "a": "143D80F8-EB51-43FE-A473-659477A329D6",
+            "b": "F34C9006-F620-4FCC-96E8-7FA192086224",
+            "alpha": "D58411EE-78D8-4EF6-BF2D-EAD879D2A112",
+            "mode": "AD0DC387-4D28-47C9-BF94-41CE6CFB41B1",
+            "nodeType": "Blend"
+        },
+        {
+            "uuid": "143D80F8-EB51-43FE-A473-659477A329D6",
+            "type": "f",
+            "src": "outgoingLight",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "F34C9006-F620-4FCC-96E8-7FA192086224",
+            "type": "v3",
+            "color": "BBC5CA0D-F491-4592-92B9-5156C61639A7",
+            "bias": "7FF96831-1111-461E-A43E-733D655DFE90",
+            "scale": "8BB4ADEB-375E-4A60-9567-0B40B3FF92FA",
+            "intensity": "4B10609F-2D94-4672-AD52-71BB98F80585",
+            "factor": "A5EEDD8F-0302-4FDA-8B38-3B50592B7727",
+            "alpha": "1C183579-8EC5-4099-AFB3-0438901F1E69",
+            "mode": "AD0DC387-4D28-47C9-BF94-41CE6CFB41B1",
+            "calpha": "gF34C9006F6204FCC96E87FA192086224_calpha",
+            "nodeType": "Fresnel"
+        },
+        {
+            "uuid": "D58411EE-78D8-4EF6-BF2D-EAD879D2A112",
+            "type": "f",
+            "src": "gF34C9006F6204FCC96E87FA192086224_calpha",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "C2B34259-3975-4FA1-AE89-AA0F9B991660",
+            "type": "c",
+            "r": 0.5333333333333333,
+            "g": 0.23529411764705882,
+            "b": 0.7803921568627451,
+            "value": 8928455,
+            "alpha": "A8D8273B-3972-4247-8847-5A98EB19202A",
+            "nodeType": "Color"
+        },
+        {"uuid": "A8D8273B-3972-4247-8847-5A98EB19202A", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "82D13973-DCB5-48B7-9617-A00F1221F131", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "2D2B47A9-D16D-4071-86E8-91BB43BE3AE8", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "C4EFF2B1-46FC-4D7A-8412-C4A9EDE15D24", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "0D04C213-91D1-46DA-986C-A2C5AB370EC9", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "CEB733EB-FE19-4DDD-9FAC-3F591D46808B",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "97CCF29E-DDE1-45FA-81C1-FBE55AA2E432", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "14F98C5D-5174-4147-9D57-DEB46DF889C5", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "E2F70C80-586A-4369-916A-33A07A538574", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "B266DB8D-F676-4D82-8196-240F8A149DC8", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "8669F004-91E2-4384-B301-667A0EA96179", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "11BAE00B-458C-4550-81FB-E9BA23C4B1F8", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "5C9C039F-90C6-4D61-8E3A-EB99285B8F6C",
+            "type": "c",
+            "r": 0.5333333333333333,
+            "g": 0.23529411764705882,
+            "b": 0.7803921568627451,
+            "value": 8928455,
+            "alpha": "98272339-5F0F-44E5-A28E-35CD69F7299C",
+            "nodeType": "Color"
+        },
+        {"uuid": "98272339-5F0F-44E5-A28E-35CD69F7299C", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "323DD2C8-77EC-4168-AC48-91966333964F", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "04D7885B-BDC3-41CB-B6B2-06CBC2A2EA61", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "64AABD98-5877-4555-9446-3BE7E4F68FC0", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "6D683811-507B-4879-A27C-F5190B603F66", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "A847A6AB-0D2A-4BCA-8BBD-33E7E10E0C5D",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "FA05A0E9-9883-487A-ABA5-1D264681F3FF", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "A6A2A48A-D634-4B1E-95F3-383E48286204", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "EC1FC2CC-9807-4804-BD27-79774370EF51", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "44C11484-E598-4CA6-9E64-970D8DAF5D6C", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "40EF54C1-9F07-4D62-855A-85C05742718E", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "A74B299D-550E-4A39-9D8B-1F0A5EC36B9C", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "335B8AB2-FE81-49FA-BF7B-B3B7AEE6361A",
+            "type": "c",
+            "r": 0.5333333333333333,
+            "g": 0.23529411764705882,
+            "b": 0.7803921568627451,
+            "value": 8928455,
+            "alpha": "118D6B25-293F-4AAB-A727-E95A8454ADB3",
+            "nodeType": "Color"
+        },
+        {"uuid": "118D6B25-293F-4AAB-A727-E95A8454ADB3", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "A6C0D5A6-19D7-431A-8CEA-DEDAA2894D11", "type": "i", "value": 0, "nodeType": "Int"},
+        {"uuid": "EBA03819-DB20-418E-8FD1-991F96DB435A", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "5A34B168-1E05-44BD-B5D0-1D8F41E7B692", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "9692687A-9AF8-4E6E-9A24-A2190EAEEE70",
+            "type": "c",
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "value": 16777215,
+            "nodeType": "Color"
+        },
+        {"uuid": "D38D7683-283C-4AE7-AA27-52B1F5DEE92C", "type": "f", "value": 0.1, "nodeType": "Float"},
+        {"uuid": "06E4CA9E-DCF3-4D5C-842E-36A09E6B7B33", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "150DBB19-57E0-4D01-9701-FE94F27457EC", "type": "f", "value": 2, "nodeType": "Float"},
+        {"uuid": "60797BC8-A072-4174-B492-81A66922C3E7", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "392916DC-A822-456F-9377-A05A0033ABB5", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "9552FFA5-3AFB-4B8D-8F50-B10F9D69B44C", "type": "i", "value": 3, "nodeType": "Int"},
+        {
+            "uuid": "41CAB8C5-EE5A-4457-9010-9BBA0FFFFE6A",
+            "type": "standard",
+            "color": "335B8AB2-FE81-49FA-BF7B-B3B7AEE6361A",
+            "roughness": "F5F9FF28-A026-450A-BE2F-119D083BCD13",
+            "metalness": "7DAB2030-5AB6-490E-8BE9-90B8FA16C1CB",
+            "alpha": "2C830F68-0797-45D0-95BF-E5324B4C49C7",
+            "reflectivity": "35C68469-48B6-4486-94DB-0B2544226F81",
+            "shadingAlpha": "EBA03819-DB20-418E-8FD1-991F96DB435A",
+            "shadingBlend": "5A34B168-1E05-44BD-B5D0-1D8F41E7B692",
+            "afterColor": "7DBDAAE9-58D6-421D-A0F4-90C45BB4FCF7",
+            "nodeType": "Standard"
+        },
+        {"uuid": "F5F9FF28-A026-450A-BE2F-119D083BCD13", "type": "f", "value": 0.44, "nodeType": "Float"},
+        {"uuid": "7DAB2030-5AB6-490E-8BE9-90B8FA16C1CB", "type": "f", "value": 0, "nodeType": "Float"},
+        {"uuid": "2C830F68-0797-45D0-95BF-E5324B4C49C7", "type": "f", "value": 1, "nodeType": "Float"},
+        {"uuid": "35C68469-48B6-4486-94DB-0B2544226F81", "type": "f", "value": 0.5, "nodeType": "Float"},
+        {
+            "uuid": "7DBDAAE9-58D6-421D-A0F4-90C45BB4FCF7",
+            "type": "v3",
+            "a": "572C6E1E-53A8-4714-894D-538E8308D6D8",
+            "b": "B2AB7B9A-B3F7-4F0C-B3D3-772F9711BDEF",
+            "alpha": "ACEA4AC9-C459-4A07-B679-A415CC9DDCF4",
+            "mode": "9552FFA5-3AFB-4B8D-8F50-B10F9D69B44C",
+            "nodeType": "Blend"
+        },
+        {
+            "uuid": "572C6E1E-53A8-4714-894D-538E8308D6D8",
+            "type": "f",
+            "src": "outgoingLight",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        },
+        {
+            "uuid": "B2AB7B9A-B3F7-4F0C-B3D3-772F9711BDEF",
+            "type": "v3",
+            "color": "9692687A-9AF8-4E6E-9A24-A2190EAEEE70",
+            "bias": "D38D7683-283C-4AE7-AA27-52B1F5DEE92C",
+            "scale": "06E4CA9E-DCF3-4D5C-842E-36A09E6B7B33",
+            "intensity": "150DBB19-57E0-4D01-9701-FE94F27457EC",
+            "factor": "60797BC8-A072-4174-B492-81A66922C3E7",
+            "alpha": "392916DC-A822-456F-9377-A05A0033ABB5",
+            "mode": "9552FFA5-3AFB-4B8D-8F50-B10F9D69B44C",
+            "calpha": "gB2AB7B9AB3F74F0CB3D3772F9711BDEF_calpha",
+            "nodeType": "Fresnel"
+        },
+        {
+            "uuid": "ACEA4AC9-C459-4A07-B679-A415CC9DDCF4",
+            "type": "f",
+            "src": "gB2AB7B9AB3F74F0CB3D3772F9711BDEF_calpha",
+            "isMethod": false,
+            "useKeywords": true,
+            "extensions": {},
+            "keywords": {},
+            "nodeType": "Expression"
+        }
+    ],
+    "assets": {"materials": {}},
+    "editor": {
+        "publish": {"type": 2, "web": {"quality": "default", "logo": true}},
+        "orbitControls": {
+            "useKeyEvents": false,
+            "enableDamping": true,
+            "enablePan": true,
+            "enableZoom": true,
+            "enableRotate": true,
+            "rotationLimitsMode": 0,
+            "rotationVerticalOffset": {"min": 1.5707963267948966, "max": 1.5707963267948966},
+            "rotationHorizontalOffset": {"min": 1.5707963267948966, "max": 1.5707963267948966},
+            "autoRotate": false,
+            "autoRotateSpeed": 2,
+            "autoRotateClockwise": true
+        },
+        "helperState": true
+    }
+}

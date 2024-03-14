@@ -1,0 +1,1649 @@
+[
+  {
+    "name_en": "Afghanistan",
+    "name_cn": "阿富汗",
+    "name_hk": "阿富汗",
+    "area_code": "93",
+    "pinyin": "afuhan",
+    "region_code": "AF",
+    "preg": "/^(\\+?93)?(\\d+)$/"
+  },
+  {
+    "name_en": "Albania",
+    "name_cn": "阿尔巴尼亚",
+    "name_hk": "阿爾巴尼亞",
+    "area_code": "355",
+    "pinyin": "aerbaniya",
+    "region_code": "AL",
+    "preg": "/^(\\+?355)?(\\d+)$/"
+  },
+  {
+    "name_en": "Algeria",
+    "name_cn": "阿尔及利亚",
+    "name_hk": "阿爾及利亞",
+    "area_code": "213",
+    "pinyin": "aerjiliya",
+    "region_code": "DZ",
+    "preg": "/^(\\+?213|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Andorra",
+    "name_cn": "安道尔共和国",
+    "name_hk": "安道爾共和國",
+    "area_code": "376",
+    "pinyin": "andaoergongheguo",
+    "region_code": "AD",
+    "preg": "/^(\\+?376)?(\\d+)$/"
+  },
+  {
+    "name_en": "Angola",
+    "name_cn": "安哥拉",
+    "name_hk": "安哥拉",
+    "area_code": "244",
+    "pinyin": "angela",
+    "region_code": "AO",
+    "preg": "/^(\\+?244)?(\\d+)$/"
+  },
+  {
+    "name_en": "Anguilla",
+    "name_cn": "安圭拉岛",
+    "name_hk": "安圭拉島",
+    "area_code": "1264",
+    "pinyin": "anguiladao",
+    "region_code": "AI",
+    "preg": "/^(\\+?1264)?(\\d+)$/"
+  },
+  {
+    "name_en": "Antigua and Barbuda",
+    "name_cn": "安提瓜和巴布达",
+    "name_hk": "安地卡及巴布達",
+    "area_code": "1268",
+    "pinyin": "antiguahebabuda",
+    "region_code": "AG",
+    "preg": "/^(\\+?1268)?(\\d+)$/"
+  },
+  {
+    "name_en": "Argentina",
+    "name_cn": "阿根廷",
+    "name_hk": "阿根廷",
+    "area_code": "54",
+    "pinyin": "agenting",
+    "region_code": "AR",
+    "preg": "/^(\\+?54)?(\\d+)$/"
+  },
+  {
+    "name_en": "Armenia",
+    "name_cn": "亚美尼亚",
+    "name_hk": "亞美尼亞",
+    "area_code": "374",
+    "pinyin": "yameiniya",
+    "region_code": "AM",
+    "preg": "/^(\\+?374)?(\\d+)$/"
+  },
+  {
+    "name_en": "Australia",
+    "name_cn": "澳大利亚",
+    "name_hk": "澳大利亞",
+    "area_code": "61",
+    "pinyin": "aodaliya",
+    "region_code": "AU",
+    "preg": "/^(\\+?61|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Austria",
+    "name_cn": "奥地利",
+    "name_hk": "奧地利",
+    "area_code": "43",
+    "pinyin": "aodili",
+    "region_code": "AT",
+    "preg": "/^(\\+?43)?(\\d+)$/"
+  },
+  {
+    "name_en": "Azerbaijan",
+    "name_cn": "阿塞拜疆",
+    "name_hk": "亞塞拜然",
+    "area_code": "994",
+    "pinyin": "asaibaijiang",
+    "region_code": "AZ",
+    "preg": "/^(\\+?994)?(\\d+)$/"
+  },
+  {
+    "name_en": "Bahamas",
+    "name_cn": "巴哈马",
+    "name_hk": "巴哈馬",
+    "area_code": "1242",
+    "pinyin": "bahama",
+    "region_code": "BS",
+    "preg": "/^(\\+?1242)?(\\d+)$/"
+  },
+  {
+    "name_en": "Bahrain",
+    "name_cn": "巴林",
+    "name_hk": "巴林",
+    "area_code": "973",
+    "pinyin": "balin",
+    "region_code": "BH",
+    "preg": "/^(\\+?973)?(\\d+)$/"
+  },
+  {
+    "name_en": "Bangladesh",
+    "name_cn": "孟加拉国",
+    "name_hk": "孟加拉",
+    "area_code": "880",
+    "pinyin": "mengjialaguo",
+    "region_code": "BD",
+    "preg": "/^(\\+?880)?(\\d+)$/"
+  },
+  {
+    "name_en": "Barbados",
+    "name_cn": "巴巴多斯",
+    "name_hk": "巴貝多",
+    "area_code": "1246",
+    "pinyin": "babaduosi",
+    "region_code": "BB",
+    "preg": "/^(\\+?1246)?(\\d+)$/"
+  },
+  {
+    "name_en": "Belarus",
+    "name_cn": "白俄罗斯",
+    "name_hk": "白俄羅斯",
+    "area_code": "375",
+    "pinyin": "baieluosi",
+    "region_code": "BY",
+    "preg": "/^(\\+?375)?(\\d+)$/"
+  },
+  {
+    "name_en": "Belgium",
+    "name_cn": "比利时",
+    "name_hk": "比利時",
+    "area_code": "32",
+    "pinyin": "bilishi",
+    "region_code": "BE",
+    "preg": "/^(\\+?32|0)4?\\d+$/"
+  },
+  {
+    "name_en": "Belize",
+    "name_cn": "伯利兹",
+    "name_hk": "貝里斯",
+    "area_code": "501",
+    "pinyin": "bolizi",
+    "region_code": "BZ",
+    "preg": "/^(\\+?501)?(\\d+)$/"
+  },
+  {
+    "name_en": "Benin",
+    "name_cn": "贝宁",
+    "name_hk": "貝南",
+    "area_code": "229",
+    "pinyin": "beining",
+    "region_code": "BJ",
+    "preg": "/^(\\+?229)?(\\d+)$/"
+  },
+  {
+    "name_en": "Bermuda Is.",
+    "name_cn": "百慕大群岛",
+    "name_hk": "百慕大群島",
+    "area_code": "1441",
+    "pinyin": "baimudaqundao",
+    "region_code": "BM",
+    "preg": "/^(\\+?1441)?(\\d+)$/"
+  },
+  {
+    "name_en": "Bolivia",
+    "name_cn": "玻利维亚",
+    "name_hk": "玻利維亞",
+    "area_code": "591",
+    "pinyin": "boliweiya",
+    "region_code": "BO",
+    "preg": "/^(\\+?591)?(\\d+)$/"
+  },
+  {
+    "name_en": "Botswana",
+    "name_cn": "博茨瓦纳",
+    "name_hk": "波札那",
+    "area_code": "267",
+    "pinyin": "bociwana",
+    "region_code": "BW",
+    "preg": "/^(\\+?267)?(\\d+)$/"
+  },
+  {
+    "name_en": "Brazil",
+    "name_cn": "巴西",
+    "name_hk": "巴西",
+    "area_code": "55",
+    "pinyin": "baxi",
+    "region_code": "BR",
+    "preg": "/^(\\+?55|0)\\-?[1-9]{2}\\-?[2-9]{1}\\d{3,4}\\-?\\d+$/"
+  },
+  {
+    "name_en": "Brunei",
+    "name_cn": "文莱",
+    "name_hk": "汶萊",
+    "area_code": "673",
+    "pinyin": "wenlai",
+    "region_code": "BN",
+    "preg": "/^(\\+?673)?(\\d+)$/"
+  },
+  {
+    "name_en": "Bulgaria",
+    "name_cn": "保加利亚",
+    "name_hk": "保加利亞",
+    "area_code": "359",
+    "pinyin": "baojialiya",
+    "region_code": "BG",
+    "preg": "/^(\\+?359)?(\\d+)$/"
+  },
+  {
+    "name_en": "Burkina-faso",
+    "name_cn": "布基纳法索",
+    "name_hk": "布吉納法索",
+    "area_code": "226",
+    "pinyin": "bujinafasuo",
+    "region_code": "BF",
+    "preg": "/^(\\+?226)?(\\d+)$/"
+  },
+  {
+    "name_en": "Burma",
+    "name_cn": "缅甸",
+    "name_hk": "緬甸",
+    "area_code": "95",
+    "pinyin": "miandian",
+    "region_code": "MM",
+    "preg": "/^(\\+?95)?(\\d+)$/"
+  },
+  {
+    "name_en": "Burundi",
+    "name_cn": "布隆迪",
+    "name_hk": "布隆迪",
+    "area_code": "257",
+    "pinyin": "bulongdi",
+    "region_code": "BI",
+    "preg": "/^(\\+?257)?(\\d+)$/"
+  },
+  {
+    "name_en": "Cameroon",
+    "name_cn": "喀麦隆",
+    "name_hk": "喀麥隆",
+    "area_code": "237",
+    "pinyin": "kamailong",
+    "region_code": "CM",
+    "preg": "/^(\\+?237)?(\\d+)$/"
+  },
+  {
+    "name_en": "Canada",
+    "name_cn": "加拿大",
+    "name_hk": "加拿大",
+    "area_code": "1",
+    "pinyin": "jianada",
+    "region_code": "CA",
+    "preg": "/^(\\+?1)?(\\d+)$/"
+  },
+  {
+    "name_en": "Cayman Is.",
+    "name_cn": "开曼群岛",
+    "name_hk": "開曼群島",
+    "area_code": "1345",
+    "pinyin": "kaimanqundao",
+    "region_code": "KY",
+    "preg": "/^(\\+?1345)?(\\d+)$/"
+  },
+  {
+    "name_en": "Central African Republic",
+    "name_cn": "中非共和国",
+    "name_hk": "中非共和國",
+    "area_code": "236",
+    "pinyin": "zhongfeigongheguo",
+    "region_code": "CF",
+    "preg": "/^(\\+?236)?(\\d+)$/"
+  },
+  {
+    "name_en": "Chad",
+    "name_cn": "乍得",
+    "name_hk": "查德",
+    "area_code": "235",
+    "pinyin": "zhade",
+    "region_code": "TD",
+    "preg": "/^(\\+?235)?(\\d+)$/"
+  },
+  {
+    "name_en": "Chile",
+    "name_cn": "智利",
+    "name_hk": "智利",
+    "area_code": "56",
+    "pinyin": "zhili",
+    "region_code": "CL",
+    "preg": "/^(\\+?56)?(\\d+)$/"
+  },
+  {
+    "name_en": "China",
+    "name_cn": "中国",
+    "name_hk": "中國",
+    "area_code": "86",
+    "pinyin": "zhongguo",
+    "region_code": "CN",
+    "preg": "/^(\\+?0?86\\-?)?1[3456789]\\d{9}$/"
+  },
+  {
+    "name_en": "Colombia",
+    "name_cn": "哥伦比亚",
+    "name_hk": "哥倫比亞",
+    "area_code": "57",
+    "pinyin": "gelunbiya",
+    "region_code": "CO",
+    "preg": "/^(\\+?57)?(\\d+)$/"
+  },
+  {
+    "name_en": "Congo",
+    "name_cn": "刚果",
+    "name_hk": "剛果",
+    "area_code": "242",
+    "pinyin": "gangguo",
+    "region_code": "CG",
+    "preg": "/^(\\+?242)?(\\d+)$/"
+  },
+  {
+    "name_en": "Cook Is.",
+    "name_cn": "库克群岛",
+    "name_hk": "科克群島",
+    "area_code": "682",
+    "pinyin": "kukequndao",
+    "region_code": "CK",
+    "preg": "/^(\\+?682)?(\\d+)$/"
+  },
+  {
+    "name_en": "Costa Rica",
+    "name_cn": "哥斯达黎加",
+    "name_hk": "哥斯大黎加",
+    "area_code": "506",
+    "pinyin": "gesidalijia",
+    "region_code": "CR",
+    "preg": "/^(\\+?506)?(\\d+)$/"
+  },
+  {
+    "name_en": "Cuba",
+    "name_cn": "古巴",
+    "name_hk": "古巴",
+    "area_code": "53",
+    "pinyin": "guba",
+    "region_code": "CU",
+    "preg": "/^(\\+?53)?(\\d+)$/"
+  },
+  {
+    "name_en": "Cyprus",
+    "name_cn": "塞浦路斯",
+    "name_hk": "賽普勒斯",
+    "area_code": "357",
+    "pinyin": "saipulusi",
+    "region_code": "CY",
+    "preg": "/^(\\+?357)?(\\d+)$/"
+  },
+  {
+    "name_en": "Czech Republic",
+    "name_cn": "捷克",
+    "name_hk": "捷克",
+    "area_code": "420",
+    "pinyin": "jieke",
+    "region_code": "CZ",
+    "preg": "/^(\\+?420)?(\\d+)$/"
+  },
+  {
+    "name_en": "Denmark",
+    "name_cn": "丹麦",
+    "name_hk": "丹麥",
+    "area_code": "45",
+    "pinyin": "danmai",
+    "region_code": "DK",
+    "preg": "/^(\\+?45)?(\\d+)$/"
+  },
+  {
+    "name_en": "Djibouti",
+    "name_cn": "吉布提",
+    "name_hk": "吉布地",
+    "area_code": "253",
+    "pinyin": "jibuti",
+    "region_code": "DJ",
+    "preg": "/^(\\+?253)?(\\d+)$/"
+  },
+  {
+    "name_en": "Dominica Rep.",
+    "name_cn": "多米尼加共和国",
+    "name_hk": "多明尼加共和國",
+    "area_code": "1890",
+    "pinyin": "duominijiagongheguo",
+    "region_code": "DO",
+    "preg": "/^(\\+?1890)?(\\d+)$/"
+  },
+  {
+    "name_en": "Ecuador",
+    "name_cn": "厄瓜多尔",
+    "name_hk": "厄瓜多爾",
+    "area_code": "593",
+    "pinyin": "eguaduoer",
+    "region_code": "EC",
+    "preg": "/^(\\+?593)?(\\d+)$/"
+  },
+  {
+    "name_en": "Egypt",
+    "name_cn": "埃及",
+    "name_hk": "埃及",
+    "area_code": "20",
+    "pinyin": "aiji",
+    "region_code": "EG",
+    "preg": "/^(\\+?20)?(\\d+)$/"
+  },
+  {
+    "name_en": "EI Salvador",
+    "name_cn": "萨尔瓦多",
+    "name_hk": "薩爾瓦多",
+    "area_code": "503",
+    "pinyin": "saerwaduo",
+    "region_code": "SV",
+    "preg": "/^(\\+?503)?(\\d+)$/"
+  },
+  {
+    "name_en": "Estonia",
+    "name_cn": "爱沙尼亚",
+    "name_hk": "愛沙尼亞",
+    "area_code": "372",
+    "pinyin": "aishaniya",
+    "region_code": "EE",
+    "preg": "/^(\\+?372)?(\\d+)$/"
+  },
+  {
+    "name_en": "Ethiopia",
+    "name_cn": "埃塞俄比亚",
+    "name_hk": "衣索比亞",
+    "area_code": "251",
+    "pinyin": "aisaiebiya",
+    "region_code": "ET",
+    "preg": "/^(\\+?251)?(\\d+)$/"
+  },
+  {
+    "name_en": "Fiji",
+    "name_cn": "斐济",
+    "name_hk": "斐濟",
+    "area_code": "679",
+    "pinyin": "feiji",
+    "region_code": "FJ",
+    "preg": "/^(\\+?679)?(\\d+)$/"
+  },
+  {
+    "name_en": "Finland",
+    "name_cn": "芬兰",
+    "name_hk": "芬蘭",
+    "area_code": "358",
+    "pinyin": "fenlan",
+    "region_code": "FI",
+    "preg": "/^(\\+?358|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "France",
+    "name_cn": "法国",
+    "name_hk": "法國",
+    "area_code": "33",
+    "pinyin": "faguo",
+    "region_code": "FR",
+    "preg": "/^(\\+?33|0)[67]\\d+$/"
+  },
+  {
+    "name_en": "French Guiana",
+    "name_cn": "法属圭亚那",
+    "name_hk": "法屬圭亞那",
+    "area_code": "594",
+    "pinyin": "fashuguiyana",
+    "region_code": "GF",
+    "preg": "/^(\\+?594)?(\\d+)$/"
+  },
+  {
+    "name_en": "French Polynesia",
+    "name_cn": "法属玻利尼西亚",
+    "name_hk": "法屬玻利尼西亞",
+    "area_code": "689",
+    "pinyin": "fashubolinixiya",
+    "region_code": "PF",
+    "preg": "/^(\\+?689)?(\\d+)$/"
+  },
+  {
+    "name_en": "Gabon",
+    "name_cn": "加蓬",
+    "name_hk": "加蓬",
+    "area_code": "241",
+    "pinyin": "jiapeng",
+    "region_code": "GA",
+    "preg": "/^(\\+?241)?(\\d+)$/"
+  },
+  {
+    "name_en": "Gambia",
+    "name_cn": "冈比亚",
+    "name_hk": "甘比亞",
+    "area_code": "220",
+    "pinyin": "gangbiya",
+    "region_code": "GM",
+    "preg": "/^(\\+?220)?(\\d+)$/"
+  },
+  {
+    "name_en": "Georgia",
+    "name_cn": "格鲁吉亚",
+    "name_hk": "格魯吉亞",
+    "area_code": "995",
+    "pinyin": "gelujiya",
+    "region_code": "GE",
+    "preg": "/^(\\+?995)?(\\d+)$/"
+  },
+  {
+    "name_en": "Germany",
+    "name_cn": "德国",
+    "name_hk": "德國",
+    "area_code": "49",
+    "pinyin": "deguo",
+    "region_code": "DE",
+    "preg": "/^(\\+?49[ \\.\\-])?(\\d+)$/"
+  },
+  {
+    "name_en": "Ghana",
+    "name_cn": "加纳",
+    "name_hk": "迦納",
+    "area_code": "233",
+    "pinyin": "jiana",
+    "region_code": "GH",
+    "preg": "/^(\\+?233)?(\\d+)$/"
+  },
+  {
+    "name_en": "Gibraltar",
+    "name_cn": "直布罗陀",
+    "name_hk": "直布羅陀",
+    "area_code": "350",
+    "pinyin": "zhibuluotuo",
+    "region_code": "GI",
+    "preg": "/^(\\+?350)?(\\d+)$/"
+  },
+  {
+    "name_en": "Greece",
+    "name_cn": "希腊",
+    "name_hk": "希臘",
+    "area_code": "30",
+    "pinyin": "xila",
+    "region_code": "GR",
+    "preg": "/^(\\+?30)?(\\d+)$/"
+  },
+  {
+    "name_en": "Grenada",
+    "name_cn": "格林纳达",
+    "name_hk": "格瑞那達",
+    "area_code": "1809",
+    "pinyin": "gelinnada",
+    "region_code": "GD",
+    "preg": "/^(\\+?1809)?(\\d+)$/"
+  },
+  {
+    "name_en": "Guam",
+    "name_cn": "关岛",
+    "name_hk": "關島",
+    "area_code": "1671",
+    "pinyin": "guandao",
+    "region_code": "GU",
+    "preg": "/^(\\+?1671)?(\\d+)$/"
+  },
+  {
+    "name_en": "Guatemala",
+    "name_cn": "危地马拉",
+    "name_hk": "瓜地馬拉",
+    "area_code": "502",
+    "pinyin": "weidimala",
+    "region_code": "GT",
+    "preg": "/^(\\+?502)?(\\d+)$/"
+  },
+  {
+    "name_en": "Guinea",
+    "name_cn": "几内亚",
+    "name_hk": "幾內亞",
+    "area_code": "224",
+    "pinyin": "jineiya",
+    "region_code": "GN",
+    "preg": "/^(\\+?224)?(\\d+)$/"
+  },
+  {
+    "name_en": "Guyana",
+    "name_cn": "圭亚那",
+    "name_hk": "圭亞那",
+    "area_code": "592",
+    "pinyin": "guiyana",
+    "region_code": "GY",
+    "preg": "/^(\\+?592)?(\\d+)$/"
+  },
+  {
+    "name_en": "Haiti",
+    "name_cn": "海地",
+    "name_hk": "海地",
+    "area_code": "509",
+    "pinyin": "haidi",
+    "region_code": "HT",
+    "preg": "/^(\\+?509)?(\\d+)$/"
+  },
+  {
+    "name_en": "Honduras",
+    "name_cn": "洪都拉斯",
+    "name_hk": "洪都拉斯",
+    "area_code": "504",
+    "pinyin": "hongdoulasi",
+    "region_code": "HN",
+    "preg": "/^(\\+?504)?(\\d+)$/"
+  },
+  {
+    "name_en": "Hongkong",
+    "name_cn": "中国香港",
+    "name_hk": "中國香港",
+    "area_code": "852",
+    "pinyin": "zhongguoxianggang",
+    "region_code": "HK",
+    "preg": "/^(\\+?852\\-?)?(\\d+)$/"
+  },
+  {
+    "name_en": "Hungary",
+    "name_cn": "匈牙利",
+    "name_hk": "匈牙利",
+    "area_code": "36",
+    "pinyin": "xiongyali",
+    "region_code": "HU",
+    "preg": "/^(\\+?36)?(\\d+)$/"
+  },
+  {
+    "name_en": "Iceland",
+    "name_cn": "冰岛",
+    "name_hk": "冰島",
+    "area_code": "354",
+    "pinyin": "bingdao",
+    "region_code": "IS",
+    "preg": "/^(\\+?354)?(\\d+)$/"
+  },
+  {
+    "name_en": "India",
+    "name_cn": "印度",
+    "name_hk": "印度",
+    "area_code": "91",
+    "pinyin": "yindu",
+    "region_code": "IN",
+    "preg": "/^(\\+?91|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Indonesia",
+    "name_cn": "印度尼西亚",
+    "name_hk": "印尼",
+    "area_code": "62",
+    "pinyin": "yindunixiya",
+    "region_code": "ID",
+    "preg": "/^(\\+?62)?(\\d+)$/"
+  },
+  {
+    "name_en": "Iran",
+    "name_cn": "伊朗",
+    "name_hk": "伊朗",
+    "area_code": "98",
+    "pinyin": "yilang",
+    "region_code": "IR",
+    "preg": "/^(\\+?98)?(\\d+)$/"
+  },
+  {
+    "name_en": "Iraq",
+    "name_cn": "伊拉克",
+    "name_hk": "伊拉克",
+    "area_code": "964",
+    "pinyin": "yilake",
+    "region_code": "IQ",
+    "preg": "/^(\\+?964)?(\\d+)$/"
+  },
+  {
+    "name_en": "Ireland",
+    "name_cn": "爱尔兰",
+    "name_hk": "愛爾蘭",
+    "area_code": "353",
+    "pinyin": "aierlan",
+    "region_code": "IE",
+    "preg": "/^(\\+?353)?(\\d+)$/"
+  },
+  {
+    "name_en": "Israel",
+    "name_cn": "以色列",
+    "name_hk": "以色列",
+    "area_code": "972",
+    "pinyin": "yiselie",
+    "region_code": "IL",
+    "preg": "/^(\\+972|0)?(\\d+)/"
+  },
+  {
+    "name_en": "Italy",
+    "name_cn": "意大利",
+    "name_hk": "義大利",
+    "area_code": "39",
+    "pinyin": "yidali",
+    "region_code": "IT",
+    "preg": "/^(\\+?39)?(\\d+)$/"
+  },
+  {
+    "name_en": "Jamaica",
+    "name_cn": "牙买加",
+    "name_hk": "牙買加",
+    "area_code": "1876",
+    "pinyin": "yamaijia",
+    "region_code": "JM",
+    "preg": "/^(\\+?1876)?(\\d+)$/"
+  },
+  {
+    "name_en": "Japan",
+    "name_cn": "日本",
+    "name_hk": "日本",
+    "area_code": "81",
+    "pinyin": "riben",
+    "region_code": "JP",
+    "preg": "/^(\\+?81|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Jordan",
+    "name_cn": "约旦",
+    "name_hk": "約旦",
+    "area_code": "962",
+    "pinyin": "yuedan",
+    "region_code": "JO",
+    "preg": "/^(\\+?962)?(\\d+)$/"
+  },
+  {
+    "name_en": "Kampuchea (Cambodia )",
+    "name_cn": "柬埔寨",
+    "name_hk": "柬埔寨",
+    "area_code": "855",
+    "pinyin": "jianpuzhai",
+    "region_code": "KH",
+    "preg": "/^(\\+?855)?(\\d+)$/"
+  },
+  {
+    "name_en": "Kazakstan",
+    "name_cn": "哈萨克斯坦",
+    "name_hk": "哈薩克",
+    "area_code": "327",
+    "pinyin": "hasakesitan",
+    "region_code": "KZ",
+    "preg": "/^(\\+?327)?(\\d+)$/"
+  },
+  {
+    "name_en": "Kenya",
+    "name_cn": "肯尼亚",
+    "name_hk": "肯亞",
+    "area_code": "254",
+    "pinyin": "kenniya",
+    "region_code": "KE",
+    "preg": "/^(\\+?254)?(\\d+)$/"
+  },
+  {
+    "name_en": "Korea",
+    "name_cn": "韩国",
+    "name_hk": "韓國",
+    "area_code": "82",
+    "pinyin": "hanguo",
+    "region_code": "KR",
+    "preg": "/^(\\+?82)?(\\d+)$/"
+  },
+  {
+    "name_en": "Kuwait",
+    "name_cn": "科威特",
+    "name_hk": "科威特",
+    "area_code": "965",
+    "pinyin": "keweite",
+    "region_code": "KW",
+    "preg": "/^(\\+?965)?(\\d+)$/"
+  },
+  {
+    "name_en": "Kyrgyzstan",
+    "name_cn": "吉尔吉斯坦",
+    "name_hk": "吉爾吉斯坦",
+    "area_code": "331",
+    "pinyin": "jierjisitan",
+    "region_code": "KG",
+    "preg": "/^(\\+?331)?(\\d+)$/"
+  },
+  {
+    "name_en": "Laos",
+    "name_cn": "老挝",
+    "name_hk": "老撾",
+    "area_code": "856",
+    "pinyin": "laowo",
+    "region_code": "LA",
+    "preg": "/^(\\+?856)?(\\d+)$/"
+  },
+  {
+    "name_en": "Latvia",
+    "name_cn": "拉脱维亚",
+    "name_hk": "拉脫維亞",
+    "area_code": "371",
+    "pinyin": "latuoweiya",
+    "region_code": "LV",
+    "preg": "/^(\\+?371)?(\\d+)$/"
+  },
+  {
+    "name_en": "Lebanon",
+    "name_cn": "黎巴嫩",
+    "name_hk": "黎巴嫩",
+    "area_code": "961",
+    "pinyin": "libanen",
+    "region_code": "LB",
+    "preg": "/^(\\+?961)?(\\d+)$/"
+  },
+  {
+    "name_en": "Lesotho",
+    "name_cn": "莱索托",
+    "name_hk": "賴索托",
+    "area_code": "266",
+    "pinyin": "laisuotuo",
+    "region_code": "LS",
+    "preg": "/^(\\+?266)?(\\d+)$/"
+  },
+  {
+    "name_en": "Liberia",
+    "name_cn": "利比里亚",
+    "name_hk": "賴比瑞亞",
+    "area_code": "231",
+    "pinyin": "libiliya",
+    "region_code": "LR",
+    "preg": "/^(\\+?231)?(\\d+)$/"
+  },
+  {
+    "name_en": "Libya",
+    "name_cn": "利比亚",
+    "name_hk": "利比亞",
+    "area_code": "218",
+    "pinyin": "libiya",
+    "region_code": "LY",
+    "preg": "/^(\\+?218)?(\\d+)$/"
+  },
+  {
+    "name_en": "Liechtenstein",
+    "name_cn": "列支敦士登",
+    "name_hk": "列支敦士登",
+    "area_code": "423",
+    "pinyin": "liezhidunshideng",
+    "region_code": "LI",
+    "preg": "/^(\\+?423)?(\\d+)$/"
+  },
+  {
+    "name_en": "Lithuania",
+    "name_cn": "立陶宛",
+    "name_hk": "立陶宛",
+    "area_code": "370",
+    "pinyin": "litaowan",
+    "region_code": "LT",
+    "preg": "/^(\\+?370)?(\\d+)$/"
+  },
+  {
+    "name_en": "Luxembourg",
+    "name_cn": "卢森堡",
+    "name_hk": "盧森堡",
+    "area_code": "352",
+    "pinyin": "lusenbao",
+    "region_code": "LU",
+    "preg": "/^(\\+?352)?(\\d+)$/"
+  },
+  {
+    "name_en": "Macao",
+    "name_cn": "澳门",
+    "name_hk": "澳門",
+    "area_code": "853",
+    "pinyin": "aomen",
+    "region_code": "MO",
+    "preg": "/^(\\+?853)?(\\d+)$/"
+  },
+  {
+    "name_en": "Madagascar",
+    "name_cn": "马达加斯加",
+    "name_hk": "馬達加斯加",
+    "area_code": "261",
+    "pinyin": "madajiasijia",
+    "region_code": "MG",
+    "preg": "/^(\\+?261)?(\\d+)$/"
+  },
+  {
+    "name_en": "Malawi",
+    "name_cn": "马拉维",
+    "name_hk": "馬拉威",
+    "area_code": "265",
+    "pinyin": "malawei",
+    "region_code": "MW",
+    "preg": "/^(\\+?265)?(\\d+)$/"
+  },
+  {
+    "name_en": "Malaysia",
+    "name_cn": "马来西亚",
+    "name_hk": "馬來西亞",
+    "area_code": "60",
+    "pinyin": "malaixiya",
+    "region_code": "MY",
+    "preg": "/^(\\+?6?01)?(\\d+)$/"
+  },
+  {
+    "name_en": "Maldives",
+    "name_cn": "马尔代夫",
+    "name_hk": "馬爾地夫",
+    "area_code": "960",
+    "pinyin": "maerdaifu",
+    "region_code": "MV",
+    "preg": "/^(\\+?960)?(\\d+)$/"
+  },
+  {
+    "name_en": "Mali",
+    "name_cn": "马里",
+    "name_hk": "馬里",
+    "area_code": "223",
+    "pinyin": "mali",
+    "region_code": "ML",
+    "preg": "/^(\\+?223)?(\\d+)$/"
+  },
+  {
+    "name_en": "Malta",
+    "name_cn": "马耳他",
+    "name_hk": "馬爾他",
+    "area_code": "356",
+    "pinyin": "maerta",
+    "region_code": "MT",
+    "preg": "/^(\\+?356)?(\\d+)$/"
+  },
+  {
+    "name_en": "Martinique",
+    "name_cn": "马提尼克",
+    "name_hk": "法屬馬丁尼克",
+    "area_code": "596",
+    "pinyin": "matinike",
+    "region_code": "MQ",
+    "preg": "/^(\\+?596)?(\\d+)$/"
+  },
+  {
+    "name_en": "Mauritius",
+    "name_cn": "毛里求斯",
+    "name_hk": "模里西斯",
+    "area_code": "230",
+    "pinyin": "maoliqiusi",
+    "region_code": "MU",
+    "preg": "/^(\\+?230)?(\\d+)$/"
+  },
+  {
+    "name_en": "Mexico",
+    "name_cn": "墨西哥",
+    "name_hk": "墨西哥",
+    "area_code": "52",
+    "pinyin": "moxige",
+    "region_code": "MX",
+    "preg": "/^(\\+?52)?(\\d+)$/"
+  },
+  {
+    "name_en": "Moldova, Republic of",
+    "name_cn": "摩尔多瓦",
+    "name_hk": "莫爾達瓦",
+    "area_code": "373",
+    "pinyin": "moerduowa",
+    "region_code": "MD",
+    "preg": "/^(\\+?373)?(\\d+)$/"
+  },
+  {
+    "name_en": "Monaco",
+    "name_cn": "摩纳哥",
+    "name_hk": "摩納哥",
+    "area_code": "377",
+    "pinyin": "monage",
+    "region_code": "MC",
+    "preg": "/^(\\+?377)?(\\d+)$/"
+  },
+  {
+    "name_en": "Mongolia",
+    "name_cn": "蒙古",
+    "name_hk": "蒙古",
+    "area_code": "976",
+    "pinyin": "menggu",
+    "region_code": "MN",
+    "preg": "/^(\\+?976)?(\\d+)$/"
+  },
+  {
+    "name_en": "Montserrat Is",
+    "name_cn": "蒙特塞拉特岛",
+    "name_hk": "蒙瑟拉特島島",
+    "area_code": "1664",
+    "pinyin": "mengtesailatedao",
+    "region_code": "MS",
+    "preg": "/^(\\+?1664)?(\\d+)$/"
+  },
+  {
+    "name_en": "Morocco",
+    "name_cn": "摩洛哥",
+    "name_hk": "摩洛哥",
+    "area_code": "212",
+    "pinyin": "moluoge",
+    "region_code": "MA",
+    "preg": "/^(\\+?212)?(\\d+)$/"
+  },
+  {
+    "name_en": "Mozambique",
+    "name_cn": "莫桑比克",
+    "name_hk": "莫三比克",
+    "area_code": "258",
+    "pinyin": "mosangbike",
+    "region_code": "MZ",
+    "preg": "/^(\\+?258)?(\\d+)$/"
+  },
+  {
+    "name_en": "Namibia",
+    "name_cn": "纳米比亚",
+    "name_hk": "納米比亞",
+    "area_code": "264",
+    "pinyin": "namibiya",
+    "region_code": "NA",
+    "preg": "/^(\\+?264)?(\\d+)$/"
+  },
+  {
+    "name_en": "Nauru",
+    "name_cn": "瑙鲁",
+    "name_hk": "諾魯",
+    "area_code": "674",
+    "pinyin": "naolu",
+    "region_code": "NR",
+    "preg": "/^(\\+?674)?(\\d+)$/"
+  },
+  {
+    "name_en": "Nepal",
+    "name_cn": "尼泊尔",
+    "name_hk": "尼泊爾",
+    "area_code": "977",
+    "pinyin": "niboer",
+    "region_code": "NP",
+    "preg": "/^(\\+?977)?(\\d+)$/"
+  },
+  {
+    "name_en": "Netherlands",
+    "name_cn": "荷兰",
+    "name_hk": "荷蘭",
+    "area_code": "31",
+    "pinyin": "helan",
+    "region_code": "NL",
+    "preg": "/^(\\+?31)?(\\d+)$/"
+  },
+  {
+    "name_en": "New Zealand",
+    "name_cn": "新西兰",
+    "name_hk": "紐西蘭",
+    "area_code": "64",
+    "pinyin": "xinxilan",
+    "region_code": "NZ",
+    "preg": "/^(\\+?64|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Nicaragua",
+    "name_cn": "尼加拉瓜",
+    "name_hk": "尼加拉瓜",
+    "area_code": "505",
+    "pinyin": "nijialagua",
+    "region_code": "NI",
+    "preg": "/^(\\+?505)?(\\d+)$/"
+  },
+  {
+    "name_en": "Niger",
+    "name_cn": "尼日尔",
+    "name_hk": "尼日爾",
+    "area_code": "227",
+    "pinyin": "nirier",
+    "region_code": "NE",
+    "preg": "/^(\\+?227)?(\\d+)$/"
+  },
+  {
+    "name_en": "Nigeria",
+    "name_cn": "尼日利亚",
+    "name_hk": "奈及利亞",
+    "area_code": "234",
+    "pinyin": "niriliya",
+    "region_code": "NG",
+    "preg": "/^(\\+?234)?(\\d+)$/"
+  },
+  {
+    "name_en": "North Korea",
+    "name_cn": "朝鲜",
+    "name_hk": "朝鮮",
+    "area_code": "850",
+    "pinyin": "chaoxian",
+    "region_code": "KP",
+    "preg": "/^(\\+?850)?(\\d+)$/"
+  },
+  {
+    "name_en": "Norway",
+    "name_cn": "挪威",
+    "name_hk": "挪威",
+    "area_code": "47",
+    "pinyin": "nuowei",
+    "region_code": "NO",
+    "preg": "/^(\\+?47)?(\\d+)$/"
+  },
+  {
+    "name_en": "Oman",
+    "name_cn": "阿曼",
+    "name_hk": "阿曼",
+    "area_code": "968",
+    "pinyin": "aman",
+    "region_code": "OM",
+    "preg": "/^(\\+?968)?(\\d+)$/"
+  },
+  {
+    "name_en": "Pakistan",
+    "name_cn": "巴基斯坦",
+    "name_hk": "巴基斯坦",
+    "area_code": "92",
+    "pinyin": "bajisitan",
+    "region_code": "PK",
+    "preg": "/^(\\+?92)?(\\d+)$/"
+  },
+  {
+    "name_en": "Panama",
+    "name_cn": "巴拿马",
+    "name_hk": "巴拿馬",
+    "area_code": "507",
+    "pinyin": "banama",
+    "region_code": "PA",
+    "preg": "/^(\\+?507)?(\\d+)$/"
+  },
+  {
+    "name_en": "Papua New Cuinea",
+    "name_cn": "巴布亚新几内亚",
+    "name_hk": "巴布亞紐幾內亞",
+    "area_code": "675",
+    "pinyin": "babuyaxinjineiya",
+    "region_code": "PG",
+    "preg": "/^(\\+?675)?(\\d+)$/"
+  },
+  {
+    "name_en": "Paraguay",
+    "name_cn": "巴拉圭",
+    "name_hk": "巴拉圭",
+    "area_code": "595",
+    "pinyin": "balagui",
+    "region_code": "PY",
+    "preg": "/^(\\+?595)?(\\d+)$/"
+  },
+  {
+    "name_en": "Peru",
+    "name_cn": "秘鲁",
+    "name_hk": "秘魯",
+    "area_code": "51",
+    "pinyin": "bilu",
+    "region_code": "PE",
+    "preg": "/^(\\+?51)?(\\d+)$/"
+  },
+  {
+    "name_en": "Philippines",
+    "name_cn": "菲律宾",
+    "name_hk": "菲律賓",
+    "area_code": "63",
+    "pinyin": "feilyubin",
+    "region_code": "PH",
+    "preg": "/^(\\+?63)?(\\d+)$/"
+  },
+  {
+    "name_en": "Poland",
+    "name_cn": "波兰",
+    "name_hk": "波蘭",
+    "area_code": "48",
+    "pinyin": "bolan",
+    "region_code": "PL",
+    "preg": "/^(\\+?48)?(\\d+)$/"
+  },
+  {
+    "name_en": "Portugal",
+    "name_cn": "葡萄牙",
+    "name_hk": "葡萄牙",
+    "area_code": "351",
+    "pinyin": "putaoya",
+    "region_code": "PT",
+    "preg": "/^(\\+?351)?(\\d+)$/"
+  },
+  {
+    "name_en": "Puerto Rico",
+    "name_cn": "波多黎各",
+    "name_hk": "波多黎各",
+    "area_code": "1787",
+    "pinyin": "boduolige",
+    "region_code": "PR",
+    "preg": "/^(\\+?1787)?(\\d+)$/"
+  },
+  {
+    "name_en": "Qatar",
+    "name_cn": "卡塔尔",
+    "name_hk": "卡達",
+    "area_code": "974",
+    "pinyin": "kataer",
+    "region_code": "QA",
+    "preg": "/^(\\+?974)?(\\d+)$/"
+  },
+  {
+    "name_en": "Romania",
+    "name_cn": "罗马尼亚",
+    "name_hk": "羅馬尼亞",
+    "area_code": "40",
+    "pinyin": "luomaniya",
+    "region_code": "RO",
+    "preg": "/^(\\+?40)?(\\d+)$/"
+  },
+  {
+    "name_en": "Russia",
+    "name_cn": "俄罗斯",
+    "name_hk": "俄羅斯",
+    "area_code": "7",
+    "pinyin": "eluosi",
+    "region_code": "RU",
+    "preg": "/^(\\+?7|8)?(\\d+)$/"
+  },
+  {
+    "name_en": "Saint Lueia",
+    "name_cn": "圣卢西亚",
+    "name_hk": "聖露西亞",
+    "area_code": "1758",
+    "pinyin": "shengluxiya",
+    "region_code": "LC",
+    "preg": "/^(\\+?1758)?(\\d+)$/"
+  },
+  {
+    "name_en": "Saint Vincent",
+    "name_cn": "圣文森特岛",
+    "name_hk": "聖文森特島",
+    "area_code": "1784",
+    "pinyin": "shengwensentedao",
+    "region_code": "VC",
+    "preg": "/^(\\+?1784)?(\\d+)$/"
+  },
+  {
+    "name_en": "San Marino",
+    "name_cn": "圣马力诺",
+    "name_hk": "聖馬利諾",
+    "area_code": "378",
+    "pinyin": "shengmalinuo",
+    "region_code": "SM",
+    "preg": "/^(\\+?378)?(\\d+)$/"
+  },
+  {
+    "name_en": "Sao Tome and Principe",
+    "name_cn": "圣多美和普林西比",
+    "name_hk": "聖多美及普林西比島",
+    "area_code": "239",
+    "pinyin": "shengduomeihepulinxibi",
+    "region_code": "ST",
+    "preg": "/^(\\+?239)?(\\d+)$/"
+  },
+  {
+    "name_en": "Saudi Arabia",
+    "name_cn": "沙特阿拉伯",
+    "name_hk": "沙烏地阿拉伯",
+    "area_code": "966",
+    "pinyin": "shatealabo",
+    "region_code": "SA",
+    "preg": "/^(!?(\\+?966)|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Senegal",
+    "name_cn": "塞内加尔",
+    "name_hk": "塞內加爾",
+    "area_code": "221",
+    "pinyin": "saineijiaer",
+    "region_code": "SN",
+    "preg": "/^(\\+?221)?(\\d+)$/"
+  },
+  {
+    "name_en": "Seychelles",
+    "name_cn": "塞舌尔",
+    "name_hk": "塞席爾",
+    "area_code": "248",
+    "pinyin": "saisheer",
+    "region_code": "SC",
+    "preg": "/^(\\+?248)?(\\d+)$/"
+  },
+  {
+    "name_en": "Sierra Leone",
+    "name_cn": "塞拉利昂",
+    "name_hk": "獅子山",
+    "area_code": "232",
+    "pinyin": "sailaliang",
+    "region_code": "SL",
+    "preg": "/^(\\+?232)?(\\d+)$/"
+  },
+  {
+    "name_en": "Singapore",
+    "name_cn": "新加坡",
+    "name_hk": "新加坡",
+    "area_code": "65",
+    "pinyin": "xinjiapo",
+    "region_code": "SG",
+    "preg": "/^(\\+?65)?(\\d+)$/"
+  },
+  {
+    "name_en": "Slovakia",
+    "name_cn": "斯洛伐克",
+    "name_hk": "斯洛伐克",
+    "area_code": "421",
+    "pinyin": "siluofake",
+    "region_code": "SK",
+    "preg": "/^(\\+?421)?(\\d+)$/"
+  },
+  {
+    "name_en": "Slovenia",
+    "name_cn": "斯洛文尼亚",
+    "name_hk": "斯洛維尼亞",
+    "area_code": "386",
+    "pinyin": "siluowenniya",
+    "region_code": "SI",
+    "preg": "/^(\\+?386)?(\\d+)$/"
+  },
+  {
+    "name_en": "Solomon Is",
+    "name_cn": "所罗门群岛",
+    "name_hk": "所羅門群島",
+    "area_code": "677",
+    "pinyin": "suoluomenqundao",
+    "region_code": "SB",
+    "preg": "/^(\\+?677)?(\\d+)$/"
+  },
+  {
+    "name_en": "Somali",
+    "name_cn": "索马里",
+    "name_hk": "索馬里",
+    "area_code": "252",
+    "pinyin": "suomali",
+    "region_code": "SO",
+    "preg": "/^(\\+?252)?(\\d+)$/"
+  },
+  {
+    "name_en": "South Africa",
+    "name_cn": "南非",
+    "name_hk": "南非",
+    "area_code": "27",
+    "pinyin": "nanfei",
+    "region_code": "ZA",
+    "preg": "/^(\\+?27|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Spain",
+    "name_cn": "西班牙",
+    "name_hk": "西班牙",
+    "area_code": "34",
+    "pinyin": "xibanya",
+    "region_code": "ES",
+    "preg": "/^(\\+?34)?(\\d+)$/"
+  },
+  {
+    "name_en": "Sri Lanka",
+    "name_cn": "斯里兰卡",
+    "name_hk": "斯里蘭卡",
+    "area_code": "94",
+    "pinyin": "sililanka",
+    "region_code": "LK",
+    "preg": "/^(\\+?94)?(\\d+)$/"
+  },
+  {
+    "name_en": "Sudan",
+    "name_cn": "苏丹",
+    "name_hk": "蘇丹",
+    "area_code": "249",
+    "pinyin": "sudan",
+    "region_code": "SD",
+    "preg": "/^(\\+?249)?(\\d+)$/"
+  },
+  {
+    "name_en": "Suriname",
+    "name_cn": "苏里南",
+    "name_hk": "蘇利南",
+    "area_code": "597",
+    "pinyin": "sulinan",
+    "region_code": "SR",
+    "preg": "/^(\\+?597)?(\\d+)$/"
+  },
+  {
+    "name_en": "Swaziland",
+    "name_cn": "斯威士兰",
+    "name_hk": "史瓦濟蘭",
+    "area_code": "268",
+    "pinyin": "siweishilan",
+    "region_code": "SZ",
+    "preg": "/^(\\+?268)?(\\d+)$/"
+  },
+  {
+    "name_en": "Sweden",
+    "name_cn": "瑞典",
+    "name_hk": "瑞典",
+    "area_code": "46",
+    "pinyin": "ruidian",
+    "region_code": "SE",
+    "preg": "/^(\\+?46)?(\\d+)$/"
+  },
+  {
+    "name_en": "Switzerland",
+    "name_cn": "瑞士",
+    "name_hk": "瑞士",
+    "area_code": "41",
+    "pinyin": "ruishi",
+    "region_code": "CH",
+    "preg": "/^(\\+?41)?(\\d+)$/"
+  },
+  {
+    "name_en": "Syria",
+    "name_cn": "叙利亚",
+    "name_hk": "敘利亞",
+    "area_code": "963",
+    "pinyin": "xuliya",
+    "region_code": "SY",
+    "preg": "/^(!?(\\+?963)|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Taiwan",
+    "name_cn": "中国台湾",
+    "name_hk": "中國臺灣",
+    "area_code": "886",
+    "pinyin": "zhongguotaiwan",
+    "region_code": "TW",
+    "preg": "/^(\\+?886\\-?|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Tajikstan",
+    "name_cn": "塔吉克斯坦",
+    "name_hk": "塔吉克斯坦",
+    "area_code": "992",
+    "pinyin": "tajikesitan",
+    "region_code": "TJ",
+    "preg": "/^(\\+?992)?(\\d+)$/"
+  },
+  {
+    "name_en": "Tanzania",
+    "name_cn": "坦桑尼亚",
+    "name_hk": "坦尚尼亞",
+    "area_code": "255",
+    "pinyin": "tansangniya",
+    "region_code": "TZ",
+    "preg": "/^(\\+?255)?(\\d+)$/"
+  },
+  {
+    "name_en": "Thailand",
+    "name_cn": "泰国",
+    "name_hk": "泰國",
+    "area_code": "66",
+    "pinyin": "taiguo",
+    "region_code": "TH",
+    "preg": "/^(\\+?66)?(\\d+)$/"
+  },
+  {
+    "name_en": "Togo",
+    "name_cn": "多哥",
+    "name_hk": "多哥",
+    "area_code": "228",
+    "pinyin": "duoge",
+    "region_code": "TG",
+    "preg": "/^(\\+?228)?(\\d+)$/"
+  },
+  {
+    "name_en": "Tonga",
+    "name_cn": "汤加",
+    "name_hk": "東加",
+    "area_code": "676",
+    "pinyin": "tangjia",
+    "region_code": "TO",
+    "preg": "/^(\\+?676)?(\\d+)$/"
+  },
+  {
+    "name_en": "Trinidad and Tobago",
+    "name_cn": "特立尼达和多巴哥",
+    "name_hk": "千里達和多巴哥",
+    "area_code": "1809",
+    "pinyin": "telinidaheduobage",
+    "region_code": "TT",
+    "preg": "/^(\\+?1809)?(\\d+)$/"
+  },
+  {
+    "name_en": "Tunisia",
+    "name_cn": "突尼斯",
+    "name_hk": "突尼斯",
+    "area_code": "216",
+    "pinyin": "tunisi",
+    "region_code": "TN",
+    "preg": "/^(\\+?216)?(\\d+)$/"
+  },
+  {
+    "name_en": "Turkey",
+    "name_cn": "土耳其",
+    "name_hk": "土耳其",
+    "area_code": "90",
+    "pinyin": "tuerqi",
+    "region_code": "TR",
+    "preg": "/^(\\+?90|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Turkmenistan",
+    "name_cn": "土库曼斯坦",
+    "name_hk": "土庫曼斯坦",
+    "area_code": "993",
+    "pinyin": "tukumansitan",
+    "region_code": "TM",
+    "preg": "/^(\\+?993)?(\\d+)$/"
+  },
+  {
+    "name_en": "Uganda",
+    "name_cn": "乌干达",
+    "name_hk": "烏干達",
+    "area_code": "256",
+    "pinyin": "wuganda",
+    "region_code": "UG",
+    "preg": "/^(\\+?256)?(\\d+)$/"
+  },
+  {
+    "name_en": "Ukraine",
+    "name_cn": "乌克兰",
+    "name_hk": "烏克蘭",
+    "area_code": "380",
+    "pinyin": "wukelan",
+    "region_code": "UA",
+    "preg": "/^(\\+?380)?(\\d+)$/"
+  },
+  {
+    "name_en": "United Arab Emirates",
+    "name_cn": "阿拉伯联合酋长国",
+    "name_hk": "阿拉伯聯合大公國",
+    "area_code": "971",
+    "pinyin": "alabolianheqiuzhangguo",
+    "region_code": "AE",
+    "preg": "/^(\\+?971)?(\\d+)$/"
+  },
+  {
+    "name_en": "United Kiongdom",
+    "name_cn": "英国",
+    "name_hk": "英國",
+    "area_code": "44",
+    "pinyin": "yingguo",
+    "region_code": "GB",
+    "preg": "/^(\\+?44|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "United States of America",
+    "name_cn": "美国",
+    "name_hk": "美國",
+    "area_code": "1",
+    "pinyin": "meiguo",
+    "region_code": "US",
+    "preg": "/^(\\+?1)?(\\d+)$/"
+  },
+  {
+    "name_en": "Uruguay",
+    "name_cn": "乌拉圭",
+    "name_hk": "烏拉圭",
+    "area_code": "598",
+    "pinyin": "wulɑgui",
+    "region_code": "UY",
+    "preg": "/^(\\+?598)?(\\d+)$/"
+  },
+  {
+    "name_en": "Uzbekistan",
+    "name_cn": "乌兹别克斯坦",
+    "name_hk": "烏茲別克斯坦",
+    "area_code": "233",
+    "pinyin": "wuzibiekesitan",
+    "region_code": "UZ",
+    "preg": "/^(\\+?233)?(\\d+)$/"
+  },
+  {
+    "name_en": "Venezuela",
+    "name_cn": "委内瑞拉",
+    "name_hk": "委內瑞拉",
+    "area_code": "58",
+    "pinyin": "weineiruila",
+    "region_code": "VE",
+    "preg": "/^(\\+?58)?(\\d+)$/"
+  },
+  {
+    "name_en": "Vietnam",
+    "name_cn": "越南",
+    "name_hk": "越南",
+    "area_code": "84",
+    "pinyin": "yuenan",
+    "region_code": "VN",
+    "preg": "/^(\\+?84|0)?(\\d+)$/"
+  },
+  {
+    "name_en": "Yemen",
+    "name_cn": "也门",
+    "name_hk": "葉門",
+    "area_code": "967",
+    "pinyin": "yemen",
+    "region_code": "YE",
+    "preg": "/^(\\+?967)?(\\d+)$/"
+  },
+  {
+    "name_en": "Yugoslavia",
+    "name_cn": "南斯拉夫",
+    "name_hk": "南斯拉夫",
+    "area_code": "381",
+    "pinyin": "nansilafu",
+    "region_code": "YU",
+    "preg": "/^(\\+?381)?(\\d+)$/"
+  },
+  {
+    "name_en": "Zaire",
+    "name_cn": "扎伊尔",
+    "name_hk": "薩伊",
+    "area_code": "243",
+    "pinyin": "zhayier",
+    "region_code": "ZR",
+    "preg": "/^(\\+?243)?(\\d+)$/"
+  },
+  {
+    "name_en": "Zambia",
+    "name_cn": "赞比亚",
+    "name_hk": "尚比亞",
+    "area_code": "260",
+    "pinyin": "zanbiya",
+    "region_code": "ZM",
+    "preg": "/^(\\+?26)?(\\d+)$/"
+  },
+  {
+    "name_en": "Zimbabwe",
+    "name_cn": "津巴布韦",
+    "name_hk": "辛巴威",
+    "area_code": "263",
+    "pinyin": "jinbabuwei",
+    "region_code": "ZW",
+    "preg": "/^(\\+?263)?(\\d+)$/"
+  }
+]
