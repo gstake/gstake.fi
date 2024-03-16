@@ -1,29 +1,23 @@
-# gstake frontend (Nextjs + Typescript)
+# gstake.fi
 
-## node env
+gstake.fi is a primary online resource for participants and users of the Gstake protocal.
 
-```bash
-node: v14+
-```
+## Local Development
 
-## How to Use
+### Prerequisites
 
-1. install
+- Node 16+
+- yarn
 
-```bash
-yarn install
-```
-
-2. development mode
+### Install it and run project:
 
 ```bash
+yarn
 yarn dev
 ```
 
-## commit msg rules
+## About Contribution
 
-[commitlint](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
+The site welcomes contributions from everyone. To improve the site, you’re encouraged to open an issue or pull request on GitHub. Before submitting a pull request, it’s important to spend the necessary time to discuss your proposed changes and adjust your work accordingly.
 
-## Test
-
--   Testing with [Jest](https://jestjs.io/) and [`react-testing-library`](https://testing-library.com/docs/react-testing-library/intro)
+Please note that while the site aims to be useful to the majority of GStake participants and users, it must also remain concise and easy to navigate. Unfortunately, it’s not possible to include every link to every project that’s partially built. However, if you have questions or would like to initiate a discussion, don’t hesitate to file an issue on GitHub.
