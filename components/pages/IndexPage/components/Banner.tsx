@@ -1,7 +1,7 @@
-import {memo} from 'react'
+import { memo } from 'react'
 import styled from 'styled-components'
 // import {useTranslation} from 'next-i18next'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 import Image from 'next/image'
 import EntranceEffWrapper from 'components/hoc/EntranceEffWrapper'
 
@@ -35,6 +35,30 @@ const SUPPORTED_NETWORKS = [
         background: (
             <Image
                 className="network-bg"
+                src={'/static/img/gstake_bg_streamer.png'}
+                alt="network bg"
+                width={540}
+                height={320}
+            />
+        ),
+        title: 'Streamer',
+        bgColor: 'linear-gradient(180deg, #12151A 0%, rgba(45, 45, 46, 0) 100%)',
+        borderColor: '#818181',
+        available: false,
+        icon: (
+            <Image
+                className="network-icon"
+                src={'/static/img/gstake_streamer.png'}
+                alt="network bg"
+                width={64}
+                height={64}
+            />
+        ),
+    },
+    {
+        background: (
+            <Image
+                className="network-bg"
                 src={'/static/img/gstake_bg_livepeer.png'}
                 alt="network bg"
                 width={540}
@@ -49,30 +73,6 @@ const SUPPORTED_NETWORKS = [
             <Image
                 className="network-icon"
                 src={'/static/img/gstake_livepeer.png'}
-                alt="network bg"
-                width={64}
-                height={64}
-            />
-        ),
-    },
-    {
-        background: (
-            <Image
-                className="network-bg"
-                src={'/static/img/gstake_bg_arweave.png'}
-                alt="network bg"
-                width={540}
-                height={320}
-            />
-        ),
-        title: 'Arweave',
-        bgColor: 'linear-gradient(180deg, #12151A 0%, rgba(45, 45, 46, 0.00) 100%)',
-        borderColor: '#818181',
-        available: false,
-        icon: (
-            <Image
-                className="network-icon"
-                src={'/static/img/gstake_arwave.png'}
                 alt="network bg"
                 width={64}
                 height={64}
@@ -321,7 +321,7 @@ const BannerWrapper = styled.div`
     }
 `
 
-const NetworkBlock = styled.div<{bgColor: string; borderColor: string}>`
+const NetworkBlock = styled.div<{ bgColor: string; borderColor: string }>`
     width: 540px;
     height: 320px;
     padding: 64px 64px 48px;
