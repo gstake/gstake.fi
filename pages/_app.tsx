@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 ></script>
 
                 <script
-                    src="https://my.hellobar.com/ab78091986f7202986b5fa6ee800b207b2ff5b71.js"
+                    src="https://my.hellobar.com/bbc56b30dd2317a03b4618a011abbf443312bf77.js"
                     type="text/javascript"
                     async
                 ></script>
