@@ -37,11 +37,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <AuthProvider>
             <Head>
-                <script
-                    src="https://my.hellobar.com/ab78091986f7202986b5fa6ee800b207b2ff5b71.js"
-                    type="text/javascript"
-                    async
-                ></script>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QK8SYPQEZB"></script>
                 <script
                     dangerouslySetInnerHTML={{
@@ -55,7 +50,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     }}
                 ></script>
 
-
+                <script
+                    src="https://my.hellobar.com/ab78091986f7202986b5fa6ee800b207b2ff5b71.js"
+                    type="text/javascript"
+                    async
+                ></script>
             </Head>
             <ThemeProvider theme={theme}>
                 <Component {...pageProps} />
