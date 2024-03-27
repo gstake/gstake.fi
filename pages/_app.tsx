@@ -1,11 +1,11 @@
-import App, {AppProps, AppContext} from 'next/app'
-import {useEffect} from 'react'
-import {ThemeProvider} from 'styled-components'
+import App, { AppProps, AppContext } from 'next/app'
+import { useEffect } from 'react'
+import { ThemeProvider } from 'styled-components'
 import nookies from 'nookies'
 
-import {appWithTranslation} from 'next-i18next'
+import { appWithTranslation } from 'next-i18next'
 
-import {AuthProvider} from 'utils/auth-context'
+import { AuthProvider } from 'utils/auth-context'
 // import { WsProvider } from 'utils/wsContext'
 import theme from 'utils/theme'
 import 'public/static/app.css'
@@ -13,13 +13,13 @@ import Head from 'next/head'
 
 declare const window: any
 
-function MyApp({Component, pageProps}: AppProps) {
-    const {_nextI18Next = {}} = pageProps
+function MyApp({ Component, pageProps }: AppProps) {
+    const { _nextI18Next = {} } = pageProps
 
     useEffect(() => {
         if (_nextI18Next.initialLocale) {
             let _lang = _nextI18Next.initialLocale
-            const {pathname} = window.location
+            const { pathname } = window.location
             const _urlLang = pathname.split('/')[0]
 
             if (_lang.toUpperCase() !== _urlLang.toUpperCase()) {
@@ -37,6 +37,11 @@ function MyApp({Component, pageProps}: AppProps) {
     return (
         <AuthProvider>
             <Head>
+                <script
+                    src="https://my.hellobar.com/ab78091986f7202986b5fa6ee800b207b2ff5b71.js"
+                    type="text/javascript"
+                    async
+                ></script>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QK8SYPQEZB"></script>
                 <script
                     dangerouslySetInnerHTML={{
@@ -49,15 +54,17 @@ function MyApp({Component, pageProps}: AppProps) {
                         `,
                     }}
                 ></script>
+
+
             </Head>
             <ThemeProvider theme={theme}>
                 <Component {...pageProps} />
             </ThemeProvider>
-        </AuthProvider>
+        </AuthProvider >
     )
 }
 
-MyApp.getStaticProps = async ({locale}) => {
+MyApp.getStaticProps = async ({ locale }) => {
     // Call an external API endpoint to get posts.
     // You can use any data fetching library
     const res = await fetch(`https://.../posts?locale=${locale}`)
@@ -85,13 +92,13 @@ MyApp.getStaticProps = async ({locale}) => {
 //
 MyApp.getInitialProps = async (appContext: AppContext) => {
     const appProps = await App.getInitialProps(appContext)
-    const {router, ctx} = appContext
+    const { router, ctx } = appContext
 
     if (ctx.req) {
-        const {__NEXT_INIT_QUERY, cookies} = ctx.req as any
-        const {lng} = __NEXT_INIT_QUERY || {}
-        const {NEXT_LOCALE} = cookies || {}
-        const {asPath, locale, defaultLocale} = router || {}
+        const { __NEXT_INIT_QUERY, cookies } = ctx.req as any
+        const { lng } = __NEXT_INIT_QUERY || {}
+        const { NEXT_LOCALE } = cookies || {}
+        const { asPath, locale, defaultLocale } = router || {}
 
         const desiredLocale = lng || locale || NEXT_LOCALE
         if (desiredLocale !== NEXT_LOCALE) {
@@ -102,7 +109,7 @@ MyApp.getInitialProps = async (appContext: AppContext) => {
         }
     }
 
-    return {...appProps}
+    return { ...appProps }
 }
 
 export default appWithTranslation(MyApp)
