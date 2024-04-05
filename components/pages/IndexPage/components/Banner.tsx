@@ -41,7 +41,7 @@ const SUPPORTED_NETWORKS = [
                 height={320}
             />
         ),
-        title: 'Streamer',
+        title: 'Streamr',
         bgColor: 'linear-gradient(180deg, #12151A 0%, rgba(45, 45, 46, 0) 100%)',
         borderColor: '#818181',
         available: false,
