@@ -261,8 +261,8 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
             position: absolute;
             width: 100%; 
             height: 100%;
-            right: 0;
-            top: 0;
+            right: 10px;
+            top: -10px;
             opacity: 0;
             transition: opacity 2s, transform  2s;
             transform: translateX(200px);
