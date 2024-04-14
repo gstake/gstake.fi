@@ -1,4 +1,4 @@
-import {memo} from 'react'
+import { memo } from 'react'
 // import {useTranslation} from 'next-i18next'
 // import {useRouter} from 'next/router'
 // import _throttle from 'lodash/throttle'
@@ -6,6 +6,7 @@ import styled from 'styled-components'
 // import Dropdown from 'rc-dropdown'
 // import Menu, {Item as MenuItem} from 'rc-menu'
 import 'rc-dropdown/assets/index.css'
+import Image from 'next/image'
 // import useChangeLanguage from 'hooks/useChangeLanguage'
 
 interface Props {
@@ -25,7 +26,7 @@ interface Props {
 // ]
 // const menu = (handleChangeLang) => <Menu>{menuItems(handleChangeLang)}</Menu>
 
-const Header = memo(({isIndex}: Props) => {
+const Header = memo(({ isIndex }: Props) => {
     // const {t} = useTranslation('index')
     // const topRef = useRef(0)
     // const [hideBack, setHideBack] = useState(true)
@@ -140,13 +141,74 @@ const Header = memo(({isIndex}: Props) => {
                             </div>
                         </li> */}
 
-                        <a className="link" target="_blank" rel="noopener" href="https://docs.gstake.fi/">
-                            Docs
-                        </a>
-
-                        <AppButton target="_blank" rel="noopener" href="https://testnet.gstake.fi/">
-                            Launch app
-                        </AppButton>
+                        <ContactGroup>
+                            <a target="_blank" rel="noopener" href="https://docs.gstake.fi">
+                                <SingleContact title="Gstake Docs">
+                                    <Image
+                                        className="higher-more"
+                                        src={'/static/img/gstake_book.png'}
+                                        alt="intro bg"
+                                        width={48}
+                                        height={48}
+                                    />
+                                </SingleContact>
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://github.com/gstake">
+                                <SingleContact title="Github">
+                                    <Image
+                                        className="higher-more"
+                                        src={'/static/img/gstake_github1.png'}
+                                        alt="intro bg"
+                                        width={48}
+                                        height={48}
+                                    />
+                                </SingleContact>
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://twitter.com/gstakefinance">
+                                <SingleContact title="X (Twitter)">
+                                    <Image
+                                        className="higher-more"
+                                        src={'/static/img/gstake_x1.png'}
+                                        alt="intro bg"
+                                        width={48}
+                                        height={48}
+                                    />
+                                </SingleContact>
+                            </a>
+                            <a target="_blank" rel="noopener" href="https://discord.gg/TcHv2Awp6d">
+                                <SingleContact title="Discord">
+                                    <Image
+                                        className="higher-more"
+                                        src={'/static/img/gstake_discord1.png'}
+                                        alt="intro bg"
+                                        width={48}
+                                        height={48}
+                                    />
+                                </SingleContact>
+                            </a>
+                            {/* <a target="_blank" rel="noopener" href="https://t.co/WKy3Hl4rVX">
+                                <SingleContact title="Farcaster">
+                                    <Image
+                                        className="higher-more"
+                                        src={'/static/img/gstake_far.png'}
+                                        alt="intro bg"
+                                        width={48}
+                                        height={48}
+                                    />
+                                </SingleContact>
+                            </a> */}
+                            <a href="mailto:info@gstake.fi">
+                                <SingleContact title="E-Mail">
+                                    <Image
+                                        className="higher-more"
+                                        src={'/static/img/gstake_mail.png'}
+                                        alt="intro bg"
+                                        width={48}
+                                        height={48}
+                                    />
+                                </SingleContact>
+                            </a>
+                        </ContactGroup>
                     </NavList>
                 </HeaderOptWrap>
             </div>
@@ -157,19 +219,16 @@ const Header = memo(({isIndex}: Props) => {
 export default Header
 
 const HeaderWrap = styled.div<Props>`
-    background: rgba(0, 0, 0, 0.1);
-    /* box-shadow: inset 0px -1px 1px #242433; */
-    height: 92px;
-    /* min-width: 1600px; */
+    height: 108px;
     width: 100%;
-    padding: 0 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    /* margin-bottom: ${(props) => (props.isIndex ? '0' : '1px')}; */
+    padding: 0 50px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(17, 20, 25, 0.4) 0%, rgba(13, 16, 23, 0.4) 100%);
+    border: 1px solid #2E3549;
+    z-index: 10;
     transition: all 0.3s;
-
+    border-radius: 54px;
+    position: relative;
     /* &.hasBack {
         background: #1a73ef;
     } */
@@ -178,8 +237,7 @@ const HeaderWrap = styled.div<Props>`
     } */
 
     .inner {
-        /* width: 1600px; */
-        width: 1200px;
+        width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -208,7 +266,6 @@ const NavList = styled.ul`
     align-items: center;
     justify-content: flex-end;
     height: 100%;
-    margin-left: 70px;
 
     > .link {
         color: #fff;
@@ -353,6 +410,66 @@ const AppButton = styled.a`
         }
     }
 `
+
+const ContactGroup = styled.div`
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    > a {
+        text-decoration: none;
+    }
+`
+
+const SingleContact = styled.div`
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    > img {
+        width: 48px;
+        height: 48px;
+    }
+`
+
+const ContactUsButton = styled.a`
+    width: 792px;
+    height: 78px;
+    margin-top: 30px;
+    background: #181e29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    text-decoration: none;
+
+    .title {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    .sub-title {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #8d95aa;
+    }
+`
+
 
 export const LogoSvg = () => (
     <svg width="180" height="49" viewBox="0 0 180 49" fill="none" xmlns="http://www.w3.org/2000/svg">

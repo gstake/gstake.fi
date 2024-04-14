@@ -1,19 +1,20 @@
-import {useState, useEffect} from 'react'
-import {NextSeo} from 'next-seo'
+import { useState, useEffect } from 'react'
+import { NextSeo } from 'next-seo'
 // import {useTranslation} from 'next-i18next'
 // import styled from 'styled-components'
-import {useViewportScroll} from 'framer-motion'
-import {serverSideTranslations} from 'next-i18next/serverSideTranslations'
+import { useViewportScroll } from 'framer-motion'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 import Header from 'components/common/Header'
 import Banner from 'components/pages/IndexPage/components/Banner'
 import About from 'components/pages/IndexPage/components/About'
 import Contact from 'components/pages/IndexPage/components/Contact'
+import styled from 'styled-components'
 
 const Index = (): JSX.Element => {
     // const {t} = useTranslation('common')
     const [sTop, setSTop] = useState(0)
-    const {scrollY} = useViewportScroll()
+    const { scrollY } = useViewportScroll()
 
     useEffect(() => {
         scrollY.onChange((v) => {
@@ -51,10 +52,9 @@ const Index = (): JSX.Element => {
                     },
                 ]}
             />
-            <Header sTop={sTop} isIndex={true} />
             <Banner />
-            <About />
-            <Contact />
+            {/* <About />
+            <Contact /> */}
         </div>
     )
 }
@@ -95,7 +95,7 @@ const Index = (): JSX.Element => {
 //     }
 // `
 
-export const getStaticProps = async ({locale}) => {
+export const getStaticProps = async ({ locale }) => {
     return {
         props: {
             ...(await serverSideTranslations(locale, ['index', 'common'])),
