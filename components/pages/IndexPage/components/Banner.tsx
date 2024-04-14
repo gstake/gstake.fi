@@ -162,7 +162,7 @@ const PageBanner = memo(() => {
                             FOR <Typewriter delaySpeed={5000} loop onDelete={onDelete} onType={onTypeChanged} typeSpeed={200} deleteSpeed={200} words={words} cursor cursorBlinking />
                         </div>
 
-                        <LaunchButton>
+                        <LaunchButton target='_blank' rel="noopener" href="https://gstake-interface-arbitrum-one.vercel.app/">
                             <span>Launch APP</span>
                             <Image className="network-icon"
                                 src={'/static/img/launch_app_1.png'}
@@ -376,7 +376,7 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
     }
 `
 
-const LaunchButton = styled.div`
+const LaunchButton = styled.a`
     width: 280px;
     height: 68px;
     position: relative;
