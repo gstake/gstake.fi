@@ -147,6 +147,11 @@ const PageBanner = memo(() => {
 
     return (
         <BannerWrapper fontBackground={curItem?.bgColor} id="home">
+            <div style={{ display: 'none' }}>
+                {
+                    SUPPORTED_NETWORKS.map(item => item.background)
+                }
+            </div>
             <div style={{ height: bgHeight, overflow: 'hidden' }} ref={innerRef} className="inner">
                 {
                     !!curItem &&
