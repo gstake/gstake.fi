@@ -255,7 +255,7 @@ const BannerWrapper = styled.div`
             font-size: 64px;
             font-style: normal;
             font-weight: 500;
-            line-height: 160%; /* 102.4px */
+            line-height: 160%;
             opacity: 0.8 !important;
 
             > span {
