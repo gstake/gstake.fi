@@ -254,7 +254,7 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
         min-width: 1200px;
         border-radius: 32px;
         padding: 18px;
-        border: 1px solid #2E3549;
+        border: 1.5px solid #2E3549;
         position: relative;
 
         >.bg-wrap {
@@ -385,6 +385,11 @@ const LaunchButton = styled.a`
     height: 68px;
     position: relative;
     margin-top: 40px;
+    opacity: 0.95;
+
+    &:hover {
+        opacity: 1;
+    }
     
     span {
         width: 100%;

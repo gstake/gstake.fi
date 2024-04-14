@@ -224,7 +224,7 @@ const HeaderWrap = styled.div<Props>`
     padding: 0 50px;
     box-sizing: border-box;
     background: linear-gradient(180deg, rgba(17, 20, 25, 0.4) 0%, rgba(13, 16, 23, 0.4) 100%);
-    border: 1px solid #2E3549;
+    border: 1.5px solid #2E3549;
     z-index: 10;
     transition: all 0.3s;
     border-radius: 54px;
@@ -352,64 +352,64 @@ const NavList = styled.ul`
     }
 `
 
-const AppButton = styled.a`
-    text-decoration: none;
-    display: flex;
-    padding: 8px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    min-width: 148px;
-    height: 42px;
-    color: rgba(255, 255, 255, 0.8);
-    font-family: Bai Jamjuree;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%; /* 25.2px */
-    border-radius: 4px;
-    margin-left: 64px;
-    position: relative;
-    cursor: pointer;
+// const AppButton = styled.a`
+//     text-decoration: none;
+//     display: flex;
+//     padding: 8px 24px;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 10px;
+//     min-width: 148px;
+//     height: 42px;
+//     color: rgba(255, 255, 255, 0.8);
+//     font-family: Bai Jamjuree;
+//     font-size: 18px;
+//     font-style: normal;
+//     font-weight: 600;
+//     line-height: 140%; /* 25.2px */
+//     border-radius: 4px;
+//     margin-left: 64px;
+//     position: relative;
+//     cursor: pointer;
 
-    &::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        border-radius: 4px;
-        padding: 2px; /* control the border thickness */
-        background: linear-gradient(180deg, #23ac62 0%, #006ebe 100%);
-        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        pointer-events: none;
-        transition: all 0.5s;
-    }
+//     &::before {
+//         content: '';
+//         position: absolute;
+//         inset: 0;
+//         border-radius: 4px;
+//         padding: 2px; /* control the border thickness */
+//         background: linear-gradient(180deg, #23ac62 0%, #006ebe 100%);
+//         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+//         -webkit-mask-composite: xor;
+//         mask-composite: exclude;
+//         pointer-events: none;
+//         transition: all 0.5s;
+//     }
 
-    &::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        border-radius: 4px;
-        padding: 2px; /* control the border thickness */
-        background: linear-gradient(180deg, #006ebe 0%, #23ac62 100%);
-        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        pointer-events: none;
-        opacity: 0;
-        transition: all 0.5s;
-    }
+//     &::after {
+//         content: '';
+//         position: absolute;
+//         inset: 0;
+//         border-radius: 4px;
+//         padding: 2px; /* control the border thickness */
+//         background: linear-gradient(180deg, #006ebe 0%, #23ac62 100%);
+//         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+//         -webkit-mask-composite: xor;
+//         mask-composite: exclude;
+//         pointer-events: none;
+//         opacity: 0;
+//         transition: all 0.5s;
+//     }
 
-    &:hover {
-        &:before {
-            opacity: 0;
-        }
-        &:after {
-            opacity: 1;
-        }
-    }
-`
+//     &:hover {
+//         &:before {
+//             opacity: 0;
+//         }
+//         &:after {
+//             opacity: 1;
+//         }
+//     }
+// `
 
 const ContactGroup = styled.div`
     display: flex;
