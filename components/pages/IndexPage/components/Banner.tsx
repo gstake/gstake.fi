@@ -169,7 +169,7 @@ const PageBanner = memo(() => {
                             FOR <Typewriter delaySpeed={5000} loop onDelete={onDelete} onType={onTypeChanged} typeSpeed={200} deleteSpeed={200} words={words} cursor cursorBlinking />
                         </div>
 
-                        <LaunchButton target='_blank' rel="noopener" href="https://gstake-interface-arbitrum-one.vercel.app/">
+                        <LaunchButton target='_blank' rel="noopener" href="https://testnet.gstake.fi/">
                             <span>Launch APP</span>
                             <Image className="network-icon"
                                 src={'/static/img/launch_app_1.png'}
