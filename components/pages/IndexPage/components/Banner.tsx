@@ -153,12 +153,14 @@ const PageBanner = memo(() => {
                 }
             </div>
             <div style={{ height: bgHeight, overflow: 'hidden' }} ref={innerRef} className="inner">
+
+
                 {
-                    !!curItem &&
-                    <div style={{ width: '100%', height: bgHeight, }} className={`${fadingStat} bg-wrap`}>
-                        {curItem.background}
-                    </div>
+                    SUPPORTED_NETWORKS.map(item => <div key={item.title} style={{ width: '100%', height: bgHeight, }} className={`${fadingStat} ${curItem.title === item.title && 'show'} bg-wrap`}>
+                        {item.background}
+                    </div>)
                 }
+
                 <Header isIndex={true} />
                 <div className="background">
                     <div className={`main-content ${router.locale}`}>
@@ -272,14 +274,17 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
             transform: translateX(200px);
             overflow: hidden;
 
-            &.in {
-                opacity: 1;
-                transform: translateX(0);
+            &.show {
+                &.in {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+                &.out {
+                    opacity: 0;
+                    transform: translateX(200px);
+                }
             }
-            &.out {
-                opacity: 0;
-                transform: translateX(200px);
-            }
+
 
             >img {
                 width: 102%; 
