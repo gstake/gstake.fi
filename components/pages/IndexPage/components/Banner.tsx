@@ -12,9 +12,9 @@ const SUPPORTED_NETWORKS = [
         background: (
             <Image
                 className="network-bg"
-                src={'/static/img/pic-one.jpg'}
+                src={'/static/img/gstake_bg1new.jpeg'}
                 alt="network bg"
-                width={1872}
+                width={1088}
                 height={1088}
             />
         ),
@@ -37,9 +37,9 @@ const SUPPORTED_NETWORKS = [
         background: (
             <Image
                 className="network-bg"
-                src={'/static/img/pic-two.jpg'}
+                src={'/static/img/gstake_bg2.jpeg'}
                 alt="network bg"
-                width={1872}
+                width={1088}
                 height={1088}
             />
         ),
@@ -62,9 +62,9 @@ const SUPPORTED_NETWORKS = [
         background: (
             <Image
                 className="network-bg"
-                src={'/static/img/pic-three.jpg'}
+                src={'/static/img/gstake_bg3.jpeg'}
                 alt="network bg"
-                width={1872}
+                width={1088}
                 height={1088}
             />
         ),
@@ -86,9 +86,9 @@ const SUPPORTED_NETWORKS = [
         background: (
             <Image
                 className="network-bg"
-                src={'/static/img/pic-four.jpg'}
+                src={'/static/img/gstake_bg4.jpeg'}
                 alt="network bg"
-                width={1872}
+                width={1088}
                 height={1088}
             />
         ),
@@ -113,16 +113,15 @@ const PageBanner = memo(() => {
     const router = useRouter()
     const innerRef = useRef<HTMLDivElement>()
     const [curItem, setCurItem] = useState(SUPPORTED_NETWORKS[0])
-    const [bgHeight, setBgHeight] = useState(1000)
+    const [bgWidth, setBgWidth] = useState(1088)
     const [fadingStat, setFadingStat] = useState('')
 
     const words = SUPPORTED_NETWORKS.map(x => x.title)
 
     useLayoutEffect(() => {
-        console.log(innerRef.current?.clientWidth)
-        const width = innerRef.current?.clientWidth
-        const height = width / 1.72
-        setBgHeight(height)
+        console.log(innerRef.current?.clientWidth, window?.innerHeight)
+        const height = window?.innerHeight
+        setBgWidth(height - 40)
         setFadingStat('in')
     }, [])
 
@@ -146,17 +145,12 @@ const PageBanner = memo(() => {
     }
 
     return (
-        <BannerWrapper fontBackground={curItem?.bgColor} id="home">
-            <div style={{ display: 'none' }}>
-                {
-                    SUPPORTED_NETWORKS.map(item => item.background)
-                }
-            </div>
-            <div style={{ height: bgHeight, overflow: 'hidden' }} ref={innerRef} className="inner">
+        <BannerWrapper ref={innerRef} fontBackground={curItem?.bgColor} id="home">
+            <div style={{ height: bgWidth, overflow: 'hidden' }} className="inner">
 
 
                 {
-                    SUPPORTED_NETWORKS.map(item => <div key={item.title} style={{ width: '100%', height: bgHeight, }} className={`${fadingStat} ${curItem.title === item.title && 'show'} bg-wrap`}>
+                    SUPPORTED_NETWORKS.map(item => <div key={item.title} style={{ width: bgWidth, height: bgWidth, }} className={`${fadingStat} ${curItem.title === item.title && 'show'} bg-wrap`}>
                         {item.background}
                     </div>)
                 }
@@ -248,6 +242,7 @@ export default PageBanner
 const BannerWrapper = styled.div<{ fontBackground?: string }>`
     position: relative;
     width: 100%;
+    height: 100vh;
     min-width: 1200px;
     padding: 18px;
     background: #040507;
@@ -257,7 +252,6 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
     >.inner {
         width: 100%;
         min-width: 1200px;
-        min-height: 900px;
         border-radius: 32px;
         padding: 18px;
         border: 1px solid #2E3549;
@@ -267,7 +261,7 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
             position: absolute;
             width: 100%; 
             height: 100%;
-            left: 0;
+            right: 0;
             top: 0;
             opacity: 0;
             transition: opacity 2s, transform  2s;
