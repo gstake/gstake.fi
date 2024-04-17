@@ -119,9 +119,9 @@ const PageBanner = memo(() => {
     const words = SUPPORTED_NETWORKS.map(x => x.title)
 
     useLayoutEffect(() => {
-        console.log(innerRef.current?.clientWidth, window?.innerHeight)
-        const height = window?.innerHeight
-        setBgWidth(height - 40)
+        // console.log(innerRef.current?.clientWidth, window?.innerHeight)
+        // const height = window?.innerHeight
+        // setBgWidth(height - 40)
         setFadingStat('in')
     }, [])
 
@@ -146,11 +146,10 @@ const PageBanner = memo(() => {
 
     return (
         <BannerWrapper ref={innerRef} fontBackground={curItem?.bgColor} id="home">
-            <div style={{ height: bgWidth, overflow: 'hidden' }} className="inner">
-
+            <div style={{ overflow: 'hidden' }} className="inner">
 
                 {
-                    SUPPORTED_NETWORKS.map(item => <div key={item.title} style={{ width: bgWidth, height: bgWidth, }} className={`${fadingStat} ${curItem.title === item.title && 'show'} bg-wrap`}>
+                    SUPPORTED_NETWORKS.map(item => <div key={item.title} className={`${fadingStat} ${curItem.title === item.title && 'show'} bg-wrap`}>
                         {item.background}
                     </div>)
                 }
@@ -256,11 +255,12 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
         padding: 18px;
         border: 1.5px solid #2E3549;
         position: relative;
+        height: calc(100vh - 40px);
 
         >.bg-wrap {
             position: absolute;
-            width: 100%; 
-            height: 100%;
+            width: calc(100vh - 40px);
+            height: calc(100vh - 40px);
             right: 10px;
             top: -10px;
             opacity: 0;
@@ -292,9 +292,10 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
 
     div.main-content {
         position: absolute;
-        top: 20%;
+        top: 0;
+        bottom: 0;
         left: 100px;
-        width: 1128px;
+        width: 100%;
         z-index: 4;
         display: flex;
         align-items: flex-start;
@@ -305,6 +306,7 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
             color: #fff;
             font-family: Bai Jamjuree;
             font-size: 64px;
+            font-size: calc(100vh * 0.054);
             font-style: normal;
             font-weight: 500;
             line-height: 160%;
@@ -313,6 +315,7 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
             color: #fff;
             font-family: Bai Jamjuree;
             font-size: 64px;
+            font-size: calc(100vh * 0.054);
             font-style: normal;
             font-weight: 500;
             line-height: 160%;
@@ -321,6 +324,7 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
                 color: #fff;
                 font-family: Bai Jamjuree;
                 font-size: 64px;
+                font-size: calc(100vh * 0.054);
                 font-style: normal;
                 font-weight: 700;
                 line-height: 160%; /* 102.4px */
@@ -383,9 +387,16 @@ const BannerWrapper = styled.div<{ fontBackground?: string }>`
 const LaunchButton = styled.a`
     width: 280px;
     height: 68px;
+    width: calc(100vh * 0.2365);
+    height: calc(100vh * 0.05743);
     position: relative;
     margin-top: 40px;
     opacity: 0.95;
+
+    >img {
+        width: 100%;
+        height: 100%;
+    }
 
     &:hover {
         opacity: 1;
@@ -403,6 +414,7 @@ const LaunchButton = styled.a`
         justify-content: center;
         font-family: Bai Jamjuree;
         font-size: 22px;
+        font-size: calc(100vh * 0.0186);
         font-weight: 600;
         line-height: 27.5px;
         text-align: center;
